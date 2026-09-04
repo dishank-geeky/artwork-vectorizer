@@ -1,0 +1,4990 @@
+[
+  {
+    "pmsCode": "PMS 100 C",
+    "hexCode": "F6EB61"
+  },
+  {
+    "pmsCode": "PMS 101 C",
+    "hexCode": "F7EA48"
+  },
+  {
+    "pmsCode": "PMS 102 C",
+    "hexCode": "FCE300"
+  },
+  {
+    "pmsCode": "PMS 103 C",
+    "hexCode": "C5A900"
+  },
+  {
+    "pmsCode": "PMS 104 C",
+    "hexCode": "AF9800"
+  },
+  {
+    "pmsCode": "PMS 105 C",
+    "hexCode": "897A27"
+  },
+  {
+    "pmsCode": "PMS 106 C",
+    "hexCode": "F9E547"
+  },
+  {
+    "pmsCode": "PMS 107 C",
+    "hexCode": "FBE122"
+  },
+  {
+    "pmsCode": "PMS 108 C",
+    "hexCode": "FEDB00"
+  },
+  {
+    "pmsCode": "PMS 109 C",
+    "hexCode": "FFD100"
+  },
+  {
+    "pmsCode": "PMS 110 C",
+    "hexCode": "DAAA00"
+  },
+  {
+    "pmsCode": "PMS 111 C",
+    "hexCode": "AA8A00"
+  },
+  {
+    "pmsCode": "PMS 112 C",
+    "hexCode": "9C8412"
+  },
+  {
+    "pmsCode": "PMS 113 C",
+    "hexCode": "FAE053"
+  },
+  {
+    "pmsCode": "PMS 114 C",
+    "hexCode": "FBDD40"
+  },
+  {
+    "pmsCode": "PMS 115 C",
+    "hexCode": "FDDA24"
+  },
+  {
+    "pmsCode": "PMS 116 C",
+    "hexCode": "FFCD00"
+  },
+  {
+    "pmsCode": "PMS 117 C",
+    "hexCode": "C99700"
+  },
+  {
+    "pmsCode": "PMS 118 C",
+    "hexCode": "AC8400"
+  },
+  {
+    "pmsCode": "PMS 119 C",
+    "hexCode": "897322"
+  },
+  {
+    "pmsCode": "PMS 120 C",
+    "hexCode": "F6EB61"
+  },
+  {
+    "pmsCode": "PMS 1205 C",
+    "hexCode": "F7EA48"
+  },
+  {
+    "pmsCode": "PMS 121 C",
+    "hexCode": "FDD757"
+  },
+  {
+    "pmsCode": "PMS 1215 C",
+    "hexCode": "FBD872"
+  },
+  {
+    "pmsCode": "PMS 122 C",
+    "hexCode": "FED141"
+  },
+  {
+    "pmsCode": "PMS 1225 C",
+    "hexCode": "FFC845"
+  },
+  {
+    "pmsCode": "PMS 123 C",
+    "hexCode": "FFC72C"
+  },
+  {
+    "pmsCode": "PMS 1235 C",
+    "hexCode": "FFB81C"
+  },
+  {
+    "pmsCode": "PMS 124 C",
+    "hexCode": "EAAA00"
+  },
+  {
+    "pmsCode": "PMS 1245 C",
+    "hexCode": "C69214"
+  },
+  {
+    "pmsCode": "PMS 125 C",
+    "hexCode": "B58500"
+  },
+  {
+    "pmsCode": "PMS 1255 C",
+    "hexCode": "AD841F"
+  },
+  {
+    "pmsCode": "PMS 126 C",
+    "hexCode": "9A7611"
+  },
+  {
+    "pmsCode": "PMS 1265 C",
+    "hexCode": "886B25"
+  },
+  {
+    "pmsCode": "PMS 127 C",
+    "hexCode": "F3DD6D"
+  },
+  {
+    "pmsCode": "PMS 128 C",
+    "hexCode": "F3D54E"
+  },
+  {
+    "pmsCode": "PMS 129 C",
+    "hexCode": "F3D03E"
+  },
+  {
+    "pmsCode": "PMS 130 C",
+    "hexCode": "F2A900"
+  },
+  {
+    "pmsCode": "PMS 131 C",
+    "hexCode": "CC8A00"
+  },
+  {
+    "pmsCode": "PMS 132 C",
+    "hexCode": "A07400"
+  },
+  {
+    "pmsCode": "PMS 133 C",
+    "hexCode": "6C571B"
+  },
+  {
+    "pmsCode": "PMS 134 C",
+    "hexCode": "FDD26E"
+  },
+  {
+    "pmsCode": "PMS 1345 C",
+    "hexCode": "FDD086"
+  },
+  {
+    "pmsCode": "PMS 135 C",
+    "hexCode": "FFC658"
+  },
+  {
+    "pmsCode": "PMS 1355 C",
+    "hexCode": "FFC56E"
+  },
+  {
+    "pmsCode": "PMS 136 C",
+    "hexCode": "FFBF3F"
+  },
+  {
+    "pmsCode": "PMS 1365 C",
+    "hexCode": "FFB549"
+  },
+  {
+    "pmsCode": "PMS 137 C",
+    "hexCode": "FFA300"
+  },
+  {
+    "pmsCode": "PMS 1375 C",
+    "hexCode": "FF9E1B"
+  },
+  {
+    "pmsCode": "PMS 138 C",
+    "hexCode": "DE7C00"
+  },
+  {
+    "pmsCode": "PMS 1385 C",
+    "hexCode": "D57800"
+  },
+  {
+    "pmsCode": "PMS 139 C",
+    "hexCode": "AF6D04"
+  },
+  {
+    "pmsCode": "PMS 1395 C",
+    "hexCode": "996017"
+  },
+  {
+    "pmsCode": "PMS 140 C",
+    "hexCode": "74531C"
+  },
+  {
+    "pmsCode": "PMS 1405 C",
+    "hexCode": "6E4C1E"
+  },
+  {
+    "pmsCode": "PMS 141 C",
+    "hexCode": "F2C75C"
+  },
+  {
+    "pmsCode": "PMS 142 C",
+    "hexCode": "F1BE48"
+  },
+  {
+    "pmsCode": "PMS 143 C",
+    "hexCode": "F1B434"
+  },
+  {
+    "pmsCode": "PMS 144 C",
+    "hexCode": "ED8B00"
+  },
+  {
+    "pmsCode": "PMS 145 C",
+    "hexCode": "CF7F00"
+  },
+  {
+    "pmsCode": "PMS 146 C",
+    "hexCode": "A76D11"
+  },
+  {
+    "pmsCode": "PMS 147 C",
+    "hexCode": "715C2A"
+  },
+  {
+    "pmsCode": "PMS 148 C",
+    "hexCode": "FECB8B"
+  },
+  {
+    "pmsCode": "PMS 1485 C",
+    "hexCode": "FFAE62"
+  },
+  {
+    "pmsCode": "PMS 149 C",
+    "hexCode": "FFC27B"
+  },
+  {
+    "pmsCode": "PMS 1495C",
+    "hexCode": "FF8F1C"
+  },
+  {
+    "pmsCode": "PMS 150C",
+    "hexCode": "FFB25B"
+  },
+  {
+    "pmsCode": "PMS 1505 C",
+    "hexCode": "FF6900"
+  },
+  {
+    "pmsCode": "PMS 151 C",
+    "hexCode": "FF8200"
+  },
+  {
+    "pmsCode": "PMS 152 C",
+    "hexCode": "E57200"
+  },
+  {
+    "pmsCode": "PMS 1525 C",
+    "hexCode": "B94700"
+  },
+  {
+    "pmsCode": "PMS 153 C",
+    "hexCode": "BE6A14"
+  },
+  {
+    "pmsCode": "PMS 1535 C",
+    "hexCode": "94450B"
+  },
+  {
+    "pmsCode": "PMS 154 C",
+    "hexCode": "9B5A1A"
+  },
+  {
+    "pmsCode": "PMS 1545 C",
+    "hexCode": "653819"
+  },
+  {
+    "pmsCode": "PMS 155 C",
+    "hexCode": "EFD19F"
+  },
+  {
+    "pmsCode": "PMS 1555 C",
+    "hexCode": "FFB990"
+  },
+  {
+    "pmsCode": "PMS 156 C",
+    "hexCode": "EFBE7D"
+  },
+  {
+    "pmsCode": "PMS 1565 C",
+    "hexCode": "FFA06A"
+  },
+  {
+    "pmsCode": "PMS 157 C",
+    "hexCode": "ECA154"
+  },
+  {
+    "pmsCode": "PMS 1575 C",
+    "hexCode": "FF7F32"
+  },
+  {
+    "pmsCode": "PMS 158 C",
+    "hexCode": "E87722"
+  },
+  {
+    "pmsCode": "PMS 1585 C",
+    "hexCode": "FF6A13"
+  },
+  {
+    "pmsCode": "PMS 159 C",
+    "hexCode": "CB6015"
+  },
+  {
+    "pmsCode": "PMS 1595 C",
+    "hexCode": "D86018"
+  },
+  {
+    "pmsCode": "PMS 160 C",
+    "hexCode": "A1561C"
+  },
+  {
+    "pmsCode": "PMS 1605 C",
+    "hexCode": "A65523"
+  },
+  {
+    "pmsCode": "PMS 161 C",
+    "hexCode": "603D20"
+  },
+  {
+    "pmsCode": "PMS 1615 C",
+    "hexCode": "8B4720"
+  },
+  {
+    "pmsCode": "PMS 162 C",
+    "hexCode": "FFBE9F"
+  },
+  {
+    "pmsCode": "PMS 1625 C",
+    "hexCode": "FFA38B"
+  },
+  {
+    "pmsCode": "PMS 163 C",
+    "hexCode": "FF9D6E"
+  },
+  {
+    "pmsCode": "PMS 1635 C",
+    "hexCode": "FF8D6D"
+  },
+  {
+    "pmsCode": "PMS 164 C",
+    "hexCode": "FF7F41"
+  },
+  {
+    "pmsCode": "PMS 1645 C",
+    "hexCode": "FF6A39"
+  },
+  {
+    "pmsCode": "PMS 165 C",
+    "hexCode": "FF671F"
+  },
+  {
+    "pmsCode": "PMS 1655 C",
+    "hexCode": "FC4C02"
+  },
+  {
+    "pmsCode": "PMS 166 C",
+    "hexCode": "E35205"
+  },
+  {
+    "pmsCode": "PMS 1665 C",
+    "hexCode": "DC4405"
+  },
+  {
+    "pmsCode": "PMS 167 C",
+    "hexCode": "BE531C"
+  },
+  {
+    "pmsCode": "PMS 1675 C",
+    "hexCode": "A9431E"
+  },
+  {
+    "pmsCode": "PMS 168 C",
+    "hexCode": "73381D"
+  },
+  {
+    "pmsCode": "PMS 1685 C",
+    "hexCode": "833921"
+  },
+  {
+    "pmsCode": "PMS 169 C",
+    "hexCode": "FFB3AB"
+  },
+  {
+    "pmsCode": "PMS 170 C",
+    "hexCode": "FF8674"
+  },
+  {
+    "pmsCode": "PMS 171 C",
+    "hexCode": "FF5C39"
+  },
+  {
+    "pmsCode": "PMS 172 C",
+    "hexCode": "FA4616"
+  },
+  {
+    "pmsCode": "PMS 173 C",
+    "hexCode": "CF4520"
+  },
+  {
+    "pmsCode": "PMS 174 C",
+    "hexCode": "963821"
+  },
+  {
+    "pmsCode": "PMS 175 C",
+    "hexCode": "6B3529"
+  },
+  {
+    "pmsCode": "PMS 176 C",
+    "hexCode": "FFB1BB"
+  },
+  {
+    "pmsCode": "PMS 1765 C",
+    "hexCode": "FFA3B5"
+  },
+  {
+    "pmsCode": "PMS 1767 C",
+    "hexCode": "FCAFC0"
+  },
+  {
+    "pmsCode": "PMS 177 C",
+    "hexCode": "FF808B"
+  },
+  {
+    "pmsCode": "PMS 1775 C",
+    "hexCode": "FF8DA1"
+  },
+  {
+    "pmsCode": "PMS 1777 C",
+    "hexCode": "FB637E"
+  },
+  {
+    "pmsCode": "PMS 178 C",
+    "hexCode": "FF585D"
+  },
+  {
+    "pmsCode": "PMS 1785 C",
+    "hexCode": "F8485E"
+  },
+  {
+    "pmsCode": "PMS 1787 C",
+    "hexCode": "F4364C"
+  },
+  {
+    "pmsCode": "PMS 1788 C",
+    "hexCode": "EE2737"
+  },
+  {
+    "pmsCode": "PMS 179 C",
+    "hexCode": "E03C31"
+  },
+  {
+    "pmsCode": "PMS 1795 C",
+    "hexCode": "D22630"
+  },
+  {
+    "pmsCode": "PMS 1797 C",
+    "hexCode": "CB333B"
+  },
+  {
+    "pmsCode": "PMS 180 C",
+    "hexCode": "BE3A34"
+  },
+  {
+    "pmsCode": "PMS 1805 C",
+    "hexCode": "AF272F"
+  },
+  {
+    "pmsCode": "PMS 1807 C",
+    "hexCode": "A4343A"
+  },
+  {
+    "pmsCode": "PMS 181 C",
+    "hexCode": "81312F"
+  },
+  {
+    "pmsCode": "PMS 1815 C",
+    "hexCode": "7C2529"
+  },
+  {
+    "pmsCode": "PMS 1817 C",
+    "hexCode": "643335"
+  },
+  {
+    "pmsCode": "PMS 182 C",
+    "hexCode": "FABBCB"
+  },
+  {
+    "pmsCode": "PMS 183 C",
+    "hexCode": "FC9BB3"
+  },
+  {
+    "pmsCode": "PMS 184 C",
+    "hexCode": "F65275"
+  },
+  {
+    "pmsCode": "PMS 185 C",
+    "hexCode": "E4002B"
+  },
+  {
+    "pmsCode": "PMS 186 C",
+    "hexCode": "C8102E"
+  },
+  {
+    "pmsCode": "PMS 187 C",
+    "hexCode": "A6192E"
+  },
+  {
+    "pmsCode": "PMS 188 C",
+    "hexCode": "76232F"
+  },
+  {
+    "pmsCode": "PMS 189 C",
+    "hexCode": "F8A3BC"
+  },
+  {
+    "pmsCode": "PMS 1895 C",
+    "hexCode": "F5B6CD"
+  },
+  {
+    "pmsCode": "PMS 190 C",
+    "hexCode": "F67599"
+  },
+  {
+    "pmsCode": "PMS 1905 C",
+    "hexCode": "F59BBB"
+  },
+  {
+    "pmsCode": "PMS 191 C",
+    "hexCode": "EF426F"
+  },
+  {
+    "pmsCode": "PMS 1915 C",
+    "hexCode": "EF4A81"
+  },
+  {
+    "pmsCode": "PMS 192 C",
+    "hexCode": "E40046"
+  },
+  {
+    "pmsCode": "PMS 1925 C",
+    "hexCode": "E0004D"
+  },
+  {
+    "pmsCode": "PMS 193 C",
+    "hexCode": "BF0D3E"
+  },
+  {
+    "pmsCode": "PMS 1935 C",
+    "hexCode": "C5003E"
+  },
+  {
+    "pmsCode": "PMS 194 C",
+    "hexCode": "9B2743"
+  },
+  {
+    "pmsCode": "PMS 1945 C",
+    "hexCode": "A6093D"
+  },
+  {
+    "pmsCode": "PMS 195 C",
+    "hexCode": "782F40"
+  },
+  {
+    "pmsCode": "PMS 1955 C",
+    "hexCode": "8A1538"
+  },
+  {
+    "pmsCode": "PMS 196 C",
+    "hexCode": "ECC7CD"
+  },
+  {
+    "pmsCode": "PMS 197 C",
+    "hexCode": "E89CAE"
+  },
+  {
+    "pmsCode": "PMS 198 C",
+    "hexCode": "DF4661"
+  },
+  {
+    "pmsCode": "PMS 199 C",
+    "hexCode": "D50032"
+  },
+  {
+    "pmsCode": "PMS 200 C",
+    "hexCode": "BA0C2F"
+  },
+  {
+    "pmsCode": "PMS 201 C",
+    "hexCode": "9D2235"
+  },
+  {
+    "pmsCode": "PMS 202 C",
+    "hexCode": "862633"
+  },
+  {
+    "pmsCode": "PMS 203 C",
+    "hexCode": "ECB3CB"
+  },
+  {
+    "pmsCode": "PMS 204 C",
+    "hexCode": "E782A9"
+  },
+  {
+    "pmsCode": "PMS 205 C",
+    "hexCode": "E0457B"
+  },
+  {
+    "pmsCode": "PMS 206 C",
+    "hexCode": "CE0037"
+  },
+  {
+    "pmsCode": "PMS 207 C",
+    "hexCode": "A50034"
+  },
+  {
+    "pmsCode": "PMS 208 C",
+    "hexCode": "861F41"
+  },
+  {
+    "pmsCode": "PMS 209 C",
+    "hexCode": "6F263D"
+  },
+  {
+    "pmsCode": "PMS 210 C",
+    "hexCode": "F99FC9"
+  },
+  {
+    "pmsCode": "PMS 211 C",
+    "hexCode": "F57EB6"
+  },
+  {
+    "pmsCode": "PMS 212 C",
+    "hexCode": "F04E98"
+  },
+  {
+    "pmsCode": "PMS 213 C",
+    "hexCode": "E31C79"
+  },
+  {
+    "pmsCode": "PMS 214 C",
+    "hexCode": "CE0F69"
+  },
+  {
+    "pmsCode": "PMS 215 C",
+    "hexCode": "AC145A"
+  },
+  {
+    "pmsCode": "PMS 216 C",
+    "hexCode": "7D2248"
+  },
+  {
+    "pmsCode": "PMS 217 C",
+    "hexCode": "EABEDB"
+  },
+  {
+    "pmsCode": "PMS 218 C",
+    "hexCode": "E56DB1"
+  },
+  {
+    "pmsCode": "PMS 219 C",
+    "hexCode": "DA1884"
+  },
+  {
+    "pmsCode": "PMS 220 C",
+    "hexCode": "A50050"
+  },
+  {
+    "pmsCode": "PMS 221 C",
+    "hexCode": "910048"
+  },
+  {
+    "pmsCode": "PMS 222 C",
+    "hexCode": "6C1D45"
+  },
+  {
+    "pmsCode": "PMS 223 C",
+    "hexCode": "EF95CF"
+  },
+  {
+    "pmsCode": "PMS 224 C",
+    "hexCode": "EB6FBD"
+  },
+  {
+    "pmsCode": "PMS 225 C",
+    "hexCode": "DF1995"
+  },
+  {
+    "pmsCode": "PMS 226 C",
+    "hexCode": "D0006F"
+  },
+  {
+    "pmsCode": "PMS 227 C",
+    "hexCode": "AA0061"
+  },
+  {
+    "pmsCode": "PMS 228 C",
+    "hexCode": "890C58"
+  },
+  {
+    "pmsCode": "PMS 229 C",
+    "hexCode": "672146"
+  },
+  {
+    "pmsCode": "PMS 230 C",
+    "hexCode": "F4A6D7"
+  },
+  {
+    "pmsCode": "PMS 231 C",
+    "hexCode": "F277C6"
+  },
+  {
+    "pmsCode": "PMS 232 C",
+    "hexCode": "E93CAC"
+  },
+  {
+    "pmsCode": "PMS 233 C",
+    "hexCode": "C6007E"
+  },
+  {
+    "pmsCode": "PMS 234 C",
+    "hexCode": "A20067"
+  },
+  {
+    "pmsCode": "PMS 235 C",
+    "hexCode": "840B55"
+  },
+  {
+    "pmsCode": "PMS 236 C",
+    "hexCode": "F1A7DC"
+  },
+  {
+    "pmsCode": "PMS 2365 C",
+    "hexCode": "EFBAE1"
+  },
+  {
+    "pmsCode": "PMS 237 C",
+    "hexCode": "EFBAE1"
+  },
+  {
+    "pmsCode": "PMS 2375 C",
+    "hexCode": "E277CD"
+  },
+  {
+    "pmsCode": "PMS 238 C",
+    "hexCode": "E45DBF"
+  },
+  {
+    "pmsCode": "PMS 2385 C",
+    "hexCode": "D539B5"
+  },
+  {
+    "pmsCode": "PMS 239 C",
+    "hexCode": "DB3EB1"
+  },
+  {
+    "pmsCode": "PMS 2395 C",
+    "hexCode": "C800A1"
+  },
+  {
+    "pmsCode": "PMS 240 C",
+    "hexCode": "C5299B"
+  },
+  {
+    "pmsCode": "PMS 2405 C",
+    "hexCode": "B0008E"
+  },
+  {
+    "pmsCode": "PMS 241 C",
+    "hexCode": "AF1685"
+  },
+  {
+    "pmsCode": "PMS 2415 C",
+    "hexCode": "9E007E"
+  },
+  {
+    "pmsCode": "PMS 242 C",
+    "hexCode": "80225F"
+  },
+  {
+    "pmsCode": "PMS 2425 C",
+    "hexCode": "830065"
+  },
+  {
+    "pmsCode": "PMS 243 C",
+    "hexCode": "EAB8E4"
+  },
+  {
+    "pmsCode": "PMS 244 C",
+    "hexCode": "E59BDC"
+  },
+  {
+    "pmsCode": "PMS 245 C",
+    "hexCode": "DD7FD3"
+  },
+  {
+    "pmsCode": "PMS 246 C",
+    "hexCode": "C724B1"
+  },
+  {
+    "pmsCode": "PMS 247 C",
+    "hexCode": "BB16A3"
+  },
+  {
+    "pmsCode": "PMS 248 C",
+    "hexCode": "A51890"
+  },
+  {
+    "pmsCode": "PMS 249 C",
+    "hexCode": "80276C"
+  },
+  {
+    "pmsCode": "PMS 250 C",
+    "hexCode": "E7BAE4"
+  },
+  {
+    "pmsCode": "PMS 251 C",
+    "hexCode": "DD9CDF"
+  },
+  {
+    "pmsCode": "PMS 252 C",
+    "hexCode": "C964CF"
+  },
+  {
+    "pmsCode": "PMS 253 C",
+    "hexCode": "AD1AAC"
+  },
+  {
+    "pmsCode": "PMS 254 C",
+    "hexCode": "981D97"
+  },
+  {
+    "pmsCode": "PMS 255 C",
+    "hexCode": "72246C"
+  },
+  {
+    "pmsCode": "PMS 256 C",
+    "hexCode": "D6BFDD"
+  },
+  {
+    "pmsCode": "PMS 2562C",
+    "hexCode": "D7A9E3"
+  },
+  {
+    "pmsCode": "PMS 2563 C",
+    "hexCode": "CBA3D8"
+  },
+  {
+    "pmsCode": "PMS 2567 C",
+    "hexCode": "C1A0DA"
+  },
+  {
+    "pmsCode": "PMS 257 C",
+    "hexCode": "C6A1CF"
+  },
+  {
+    "pmsCode": "PMS 2572 C",
+    "hexCode": "C98BDB"
+  },
+  {
+    "pmsCode": "PMS 2573 C",
+    "hexCode": "B884CB"
+  },
+  {
+    "pmsCode": "PMS 2577 C",
+    "hexCode": "A77BCA"
+  },
+  {
+    "pmsCode": "PMS 258 C",
+    "hexCode": "8C4799"
+  },
+  {
+    "pmsCode": "PMS 2582 C",
+    "hexCode": "AC4FC6"
+  },
+  {
+    "pmsCode": "PMS 2583 C",
+    "hexCode": "A05EB5"
+  },
+  {
+    "pmsCode": "PMS 2587 C",
+    "hexCode": "8246AF"
+  },
+  {
+    "pmsCode": "PMS 259 C",
+    "hexCode": "6D2077"
+  },
+  {
+    "pmsCode": "PMS 2592 C",
+    "hexCode": "9B26B6"
+  },
+  {
+    "pmsCode": "PMS 2593 C",
+    "hexCode": "84329B"
+  },
+  {
+    "pmsCode": "PMS 2597 C",
+    "hexCode": "5C068C"
+  },
+  {
+    "pmsCode": "PMS 260 C",
+    "hexCode": "642667"
+  },
+  {
+    "pmsCode": "PMS 2602 C",
+    "hexCode": "87189D"
+  },
+  {
+    "pmsCode": "PMS 2603 C",
+    "hexCode": "702082"
+  },
+  {
+    "pmsCode": "PMS 2607 C",
+    "hexCode": "500778"
+  },
+  {
+    "pmsCode": "PMS 261 C",
+    "hexCode": "5D285F"
+  },
+  {
+    "pmsCode": "PMS 2612 C",
+    "hexCode": "772583"
+  },
+  {
+    "pmsCode": "PMS 2613 C",
+    "hexCode": "671E75"
+  },
+  {
+    "pmsCode": "PMS 2617 C",
+    "hexCode": "470A68"
+  },
+  {
+    "pmsCode": "PMS 262 C",
+    "hexCode": "51284F"
+  },
+  {
+    "pmsCode": "PMS 2622 C",
+    "hexCode": "653165"
+  },
+  {
+    "pmsCode": "PMS 2623 C",
+    "hexCode": "5F2167"
+  },
+  {
+    "pmsCode": "PMS 2627 C",
+    "hexCode": "3C1053"
+  },
+  {
+    "pmsCode": "PMS 263 C",
+    "hexCode": "D7C6E6"
+  },
+  {
+    "pmsCode": "PMS 2635 C",
+    "hexCode": "C5B4E3"
+  },
+  {
+    "pmsCode": "PMS 264 C",
+    "hexCode": "C1A7E2"
+  },
+  {
+    "pmsCode": "PMS 2645 C",
+    "hexCode": "AD96DC"
+  },
+  {
+    "pmsCode": "PMS 265 C",
+    "hexCode": "9063CD"
+  },
+  {
+    "pmsCode": "PMS 2655 C",
+    "hexCode": "9678D3"
+  },
+  {
+    "pmsCode": "PMS 266 C",
+    "hexCode": "753BBD"
+  },
+  {
+    "pmsCode": "PMS 2665 C",
+    "hexCode": "7D55C7"
+  },
+  {
+    "pmsCode": "PMS 267 C",
+    "hexCode": "5F259F"
+  },
+  {
+    "pmsCode": "PMS 268 C",
+    "hexCode": "582C83"
+  },
+  {
+    "pmsCode": "PMS 2685 C",
+    "hexCode": "330072"
+  },
+  {
+    "pmsCode": "PMS 269 C",
+    "hexCode": "512D6D"
+  },
+  {
+    "pmsCode": "PMS 2695 C",
+    "hexCode": "2E1A47"
+  },
+  {
+    "pmsCode": "PMS 270 C",
+    "hexCode": "B4B5DF"
+  },
+  {
+    "pmsCode": "PMS 2705 C",
+    "hexCode": "A7A4E0"
+  },
+  {
+    "pmsCode": "PMS 2706 C",
+    "hexCode": "CBD3EB"
+  },
+  {
+    "pmsCode": "PMS 2707 C",
+    "hexCode": "C3D7EE"
+  },
+  {
+    "pmsCode": "PMS 2708 C",
+    "hexCode": "B8CCEA"
+  },
+  {
+    "pmsCode": "PMS 271 C",
+    "hexCode": "9595D2"
+  },
+  {
+    "pmsCode": "PMS 2715 C",
+    "hexCode": "8B84D7"
+  },
+  {
+    "pmsCode": "PMS 2716 C",
+    "hexCode": "9FAEE5"
+  },
+  {
+    "pmsCode": "PMS 2717 C",
+    "hexCode": "A7C6ED"
+  },
+  {
+    "pmsCode": "PMS 2718 C",
+    "hexCode": "5C88DA"
+  },
+  {
+    "pmsCode": "PMS 272 C",
+    "hexCode": "7474C1"
+  },
+  {
+    "pmsCode": "PMS 2725 C",
+    "hexCode": "685BC7"
+  },
+  {
+    "pmsCode": "PMS 2726 C",
+    "hexCode": "485CC7"
+  },
+  {
+    "pmsCode": "PMS 2727 C",
+    "hexCode": "307FE2"
+  },
+  {
+    "pmsCode": "PMS 2728 C",
+    "hexCode": "0047BB"
+  },
+  {
+    "pmsCode": "PMS 273 C",
+    "hexCode": "24135F"
+  },
+  {
+    "pmsCode": "PMS 2735 C",
+    "hexCode": "2E008B"
+  },
+  {
+    "pmsCode": "PMS 2736 C",
+    "hexCode": "1E22AA"
+  },
+  {
+    "pmsCode": "PMS 2738 C",
+    "hexCode": "06038D"
+  },
+  {
+    "pmsCode": "PMS 274 C",
+    "hexCode": "211551"
+  },
+  {
+    "pmsCode": "PMS 2745 C",
+    "hexCode": "280071"
+  },
+  {
+    "pmsCode": "PMS 2746 C",
+    "hexCode": "171C8F"
+  },
+  {
+    "pmsCode": "PMS 2747 C",
+    "hexCode": "001A72"
+  },
+  {
+    "pmsCode": "PMS 2748 C",
+    "hexCode": "001871"
+  },
+  {
+    "pmsCode": "PMS 275 C",
+    "hexCode": "201747"
+  },
+  {
+    "pmsCode": "PMS 2755 C",
+    "hexCode": "250E62"
+  },
+  {
+    "pmsCode": "PMS 2756 C",
+    "hexCode": "151F6D"
+  },
+  {
+    "pmsCode": "PMS 2757 C",
+    "hexCode": "001E60"
+  },
+  {
+    "pmsCode": "PMS 2758 C",
+    "hexCode": "001E62"
+  },
+  {
+    "pmsCode": "PMS 276 C",
+    "hexCode": "221C35"
+  },
+  {
+    "pmsCode": "PMS 2665 C",
+    "hexCode": "201547"
+  },
+  {
+    "pmsCode": "PMS 2766 C",
+    "hexCode": "141B4D"
+  },
+  {
+    "pmsCode": "PMS 2767 C",
+    "hexCode": "13294B"
+  },
+  {
+    "pmsCode": "PMS 2768 C",
+    "hexCode": "071D49"
+  },
+  {
+    "pmsCode": "PMS 277 C",
+    "hexCode": "ABCAE9"
+  },
+  {
+    "pmsCode": "PMS 278 C",
+    "hexCode": "8BB8E8"
+  },
+  {
+    "pmsCode": "PMS 279 C",
+    "hexCode": "418FDE"
+  },
+  {
+    "pmsCode": "PMS 280 C",
+    "hexCode": "012169"
+  },
+  {
+    "pmsCode": "PMS 281 C",
+    "hexCode": "00205B"
+  },
+  {
+    "pmsCode": "PMS 282 C",
+    "hexCode": "041E42"
+  },
+  {
+    "pmsCode": "PMS 283 C",
+    "hexCode": "92C1E9"
+  },
+  {
+    "pmsCode": "PMS 284 C",
+    "hexCode": "6CACE4"
+  },
+  {
+    "pmsCode": "PMS 285 C",
+    "hexCode": "0072CE"
+  },
+  {
+    "pmsCode": "PMS 286 C",
+    "hexCode": "0033A0"
+  },
+  {
+    "pmsCode": "PMS 287 C",
+    "hexCode": "003087"
+  },
+  {
+    "pmsCode": "PMS 288 C",
+    "hexCode": "002D72"
+  },
+  {
+    "pmsCode": "PMS 289 C",
+    "hexCode": "0C2340"
+  },
+  {
+    "pmsCode": "PMS 290 C",
+    "hexCode": "B9D9EB"
+  },
+  {
+    "pmsCode": "PMS 2905 C",
+    "hexCode": "8DC8E8"
+  },
+  {
+    "pmsCode": "PMS 291 C",
+    "hexCode": "9BCBEB"
+  },
+  {
+    "pmsCode": "PMS 2915 C",
+    "hexCode": "62B5E5"
+  },
+  {
+    "pmsCode": "PMS 292 C",
+    "hexCode": "69B3E7"
+  },
+  {
+    "pmsCode": "PMS 2925 C",
+    "hexCode": "009CDE"
+  },
+  {
+    "pmsCode": "PMS 293 C",
+    "hexCode": "003DA5"
+  },
+  {
+    "pmsCode": "PMS 2935 C",
+    "hexCode": "0057B8"
+  },
+  {
+    "pmsCode": "PMS 294 C",
+    "hexCode": "002F6C"
+  },
+  {
+    "pmsCode": "PMS 2945 C",
+    "hexCode": "004C97"
+  },
+  {
+    "pmsCode": "PMS 295 C",
+    "hexCode": "002855"
+  },
+  {
+    "pmsCode": "PMS 2955 C",
+    "hexCode": "003865"
+  },
+  {
+    "pmsCode": "PMS 296 C",
+    "hexCode": "041C2C"
+  },
+  {
+    "pmsCode": "PMS 2965 C",
+    "hexCode": "00263E"
+  },
+  {
+    "pmsCode": "PMS 297 C",
+    "hexCode": "71C5E8"
+  },
+  {
+    "pmsCode": "PMS 2975 C",
+    "hexCode": "99D6EA"
+  },
+  {
+    "pmsCode": "PMS 298 C",
+    "hexCode": "41B6E6"
+  },
+  {
+    "pmsCode": "PMS 2985 C",
+    "hexCode": "5BC2E7"
+  },
+  {
+    "pmsCode": "PMS 299 C",
+    "hexCode": "00A3E0"
+  },
+  {
+    "pmsCode": "PMS 2995 C",
+    "hexCode": "00A9E0"
+  },
+  {
+    "pmsCode": "PMS 300 C",
+    "hexCode": "005EB8"
+  },
+  {
+    "pmsCode": "PMS 3005 C",
+    "hexCode": "0077C8"
+  },
+  {
+    "pmsCode": "PMS 301 C",
+    "hexCode": "004B87"
+  },
+  {
+    "pmsCode": "PMS 3015 C",
+    "hexCode": "00629B"
+  },
+  {
+    "pmsCode": "PMS 302 C",
+    "hexCode": "003B5C"
+  },
+  {
+    "pmsCode": "PMS 3025 C",
+    "hexCode": "004F71"
+  },
+  {
+    "pmsCode": "PMS 303 C",
+    "hexCode": "002A3A"
+  },
+  {
+    "pmsCode": "PMS 3035 C",
+    "hexCode": "003E51"
+  },
+  {
+    "pmsCode": "PMS 304 C",
+    "hexCode": "9ADBE8"
+  },
+  {
+    "pmsCode": "PMS 305 C",
+    "hexCode": "59CBE8"
+  },
+  {
+    "pmsCode": "PMS 306 C",
+    "hexCode": "00B5E2"
+  },
+  {
+    "pmsCode": "PMS 307 C",
+    "hexCode": "006BA6"
+  },
+  {
+    "pmsCode": "PMS 308 C",
+    "hexCode": "00587C"
+  },
+  {
+    "pmsCode": "PMS 309 C",
+    "hexCode": "003B49"
+  },
+  {
+    "pmsCode": "PMS 31 C",
+    "hexCode": "6AD1E3"
+  },
+  {
+    "pmsCode": "PMS 3105 C",
+    "hexCode": "68D2DF"
+  },
+  {
+    "pmsCode": "PMS 311 C",
+    "hexCode": "05C3DE"
+  },
+  {
+    "pmsCode": "PMS 3115 C",
+    "hexCode": "9BCBEB"
+  },
+  {
+    "pmsCode": "PMS 312 C",
+    "hexCode": "00A9CE"
+  },
+  {
+    "pmsCode": "PMS 3125 C",
+    "hexCode": "00AEC7"
+  },
+  {
+    "pmsCode": "PMS 313 C",
+    "hexCode": "0092BC"
+  },
+  {
+    "pmsCode": "PMS 3135 C",
+    "hexCode": "008EAA"
+  },
+  {
+    "pmsCode": "PMS 314 C",
+    "hexCode": "007FA3"
+  },
+  {
+    "pmsCode": "PMS 3145 C",
+    "hexCode": "00778B"
+  },
+  {
+    "pmsCode": "PMS 315 C",
+    "hexCode": "00677F"
+  },
+  {
+    "pmsCode": "PMS 3155 C",
+    "hexCode": "006272"
+  },
+  {
+    "pmsCode": "PMS 316 C",
+    "hexCode": "004851"
+  },
+  {
+    "pmsCode": "PMS 3165 C",
+    "hexCode": "004F59"
+  },
+  {
+    "pmsCode": "PMS 317 C",
+    "hexCode": "B1E4E3"
+  },
+  {
+    "pmsCode": "PMS 318 C",
+    "hexCode": "88DBDF"
+  },
+  {
+    "pmsCode": "PMS 319 C",
+    "hexCode": "2DCCD3"
+  },
+  {
+    "pmsCode": "PMS 320 C",
+    "hexCode": "009CA6"
+  },
+  {
+    "pmsCode": "PMS 321 C",
+    "hexCode": "008C95"
+  },
+  {
+    "pmsCode": "PMS 322 C",
+    "hexCode": "007377"
+  },
+  {
+    "pmsCode": "PMS 323 C",
+    "hexCode": "005F61"
+  },
+  {
+    "pmsCode": "PMS 324 C",
+    "hexCode": "9CDBD9"
+  },
+  {
+    "pmsCode": "PMS 3242 C",
+    "hexCode": "71DBD4"
+  },
+  {
+    "pmsCode": "PMS 3245 C",
+    "hexCode": "7CE0D3"
+  },
+  {
+    "pmsCode": "PMS 3248 C",
+    "hexCode": "6DCDB8"
+  },
+  {
+    "pmsCode": "PMS 325 C",
+    "hexCode": "64CCC9"
+  },
+  {
+    "pmsCode": "PMS 3252 C",
+    "hexCode": "2AD2C9"
+  },
+  {
+    "pmsCode": "PMS 3255 C",
+    "hexCode": "2CD5C4"
+  },
+  {
+    "pmsCode": "PMS 3258 C",
+    "hexCode": "49C5B1"
+  },
+  {
+    "pmsCode": "PMS 326 C",
+    "hexCode": "00B2A9"
+  },
+  {
+    "pmsCode": "PMS 3262 C",
+    "hexCode": "00BFB3"
+  },
+  {
+    "pmsCode": "PMS 3265 C",
+    "hexCode": "00C7B1"
+  },
+  {
+    "pmsCode": "PMS 3268 C",
+    "hexCode": "00AB8E"
+  },
+  {
+    "pmsCode": "PMS 327 C",
+    "hexCode": "008675"
+  },
+  {
+    "pmsCode": "PMS 3272 C",
+    "hexCode": "00A499"
+  },
+  {
+    "pmsCode": "PMS 3275 C",
+    "hexCode": "00B398"
+  },
+  {
+    "pmsCode": "PMS 3278 C",
+    "hexCode": "009B77"
+  },
+  {
+    "pmsCode": "PMS 328 C",
+    "hexCode": "007367"
+  },
+  {
+    "pmsCode": "PMS 3282 C",
+    "hexCode": "008578"
+  },
+  {
+    "pmsCode": "PMS 3285 C",
+    "hexCode": "009681"
+  },
+  {
+    "pmsCode": "PMS 3288 C",
+    "hexCode": "008264"
+  },
+  {
+    "pmsCode": "PMS 329 C",
+    "hexCode": "00685E"
+  },
+  {
+    "pmsCode": "PMS 3292 C",
+    "hexCode": "00594F"
+  },
+  {
+    "pmsCode": "PMS 3295 C",
+    "hexCode": "007864"
+  },
+  {
+    "pmsCode": "PMS 3298 C",
+    "hexCode": "006A52"
+  },
+  {
+    "pmsCode": "PMS 330 C",
+    "hexCode": "00677F"
+  },
+  {
+    "pmsCode": "PMS 3302 C",
+    "hexCode": "004C45"
+  },
+  {
+    "pmsCode": "PMS 3305 C",
+    "hexCode": "004E42"
+  },
+  {
+    "pmsCode": "PMS 3308 C",
+    "hexCode": "034638"
+  },
+  {
+    "pmsCode": "PMS 331 C",
+    "hexCode": "A7E6D7"
+  },
+  {
+    "pmsCode": "PMS 332 C",
+    "hexCode": "8CE2D0"
+  },
+  {
+    "pmsCode": "PMS 333 C",
+    "hexCode": "3CDBC0"
+  },
+  {
+    "pmsCode": "PMS 334 C",
+    "hexCode": "009775"
+  },
+  {
+    "pmsCode": "PMS 335 C",
+    "hexCode": "007B5F"
+  },
+  {
+    "pmsCode": "PMS 336 C",
+    "hexCode": "00664F"
+  },
+  {
+    "pmsCode": "PMS 337 C",
+    "hexCode": "8FD6BD"
+  },
+  {
+    "pmsCode": "PMS 3375 C",
+    "hexCode": "7AE1BF"
+  },
+  {
+    "pmsCode": "PMS 338 C",
+    "hexCode": "6ECEB2"
+  },
+  {
+    "pmsCode": "PMS 3385 C",
+    "hexCode": "47D7AC"
+  },
+  {
+    "pmsCode": "PMS 339 C",
+    "hexCode": "00B388"
+  },
+  {
+    "pmsCode": "PMS 3395 C",
+    "hexCode": "00C389"
+  },
+  {
+    "pmsCode": "PMS 340 C",
+    "hexCode": "00965E"
+  },
+  {
+    "pmsCode": "PMS 3405 C",
+    "hexCode": "00AF66"
+  },
+  {
+    "pmsCode": "PMS 341 C",
+    "hexCode": "007A53"
+  },
+  {
+    "pmsCode": "PMS 3415 C",
+    "hexCode": "007749"
+  },
+  {
+    "pmsCode": "PMS 342 C",
+    "hexCode": "006747"
+  },
+  {
+    "pmsCode": "PMS 3425 C",
+    "hexCode": "006341"
+  },
+  {
+    "pmsCode": "PMS 343 C",
+    "hexCode": "115740"
+  },
+  {
+    "pmsCode": "PMS 3435 C",
+    "hexCode": "154734"
+  },
+  {
+    "pmsCode": "PMS 344 C",
+    "hexCode": "A0DAB3"
+  },
+  {
+    "pmsCode": "PMS 345 C",
+    "hexCode": "91D6AC"
+  },
+  {
+    "pmsCode": "PMS 346 C",
+    "hexCode": "71CC98"
+  },
+  {
+    "pmsCode": "PMS 347 C",
+    "hexCode": "009A44"
+  },
+  {
+    "pmsCode": "PMS 348 C",
+    "hexCode": "00843D"
+  },
+  {
+    "pmsCode": "PMS 349 C",
+    "hexCode": "046A38"
+  },
+  {
+    "pmsCode": "PMS 350 C",
+    "hexCode": "2C5234"
+  },
+  {
+    "pmsCode": "PMS 351 C",
+    "hexCode": "A2E4B8"
+  },
+  {
+    "pmsCode": "PMS 352 C",
+    "hexCode": "8FE2B0"
+  },
+  {
+    "pmsCode": "PMS 353 C",
+    "hexCode": "80E0A7"
+  },
+  {
+    "pmsCode": "PMS 354 C",
+    "hexCode": "00B140"
+  },
+  {
+    "pmsCode": "PMS 355 C",
+    "hexCode": "009639"
+  },
+  {
+    "pmsCode": "PMS 356 C",
+    "hexCode": "007A33"
+  },
+  {
+    "pmsCode": "PMS 357 C",
+    "hexCode": "215732"
+  },
+  {
+    "pmsCode": "PMS 358 C",
+    "hexCode": "ADDC91"
+  },
+  {
+    "pmsCode": "PMS 359 C",
+    "hexCode": "A1D884"
+  },
+  {
+    "pmsCode": "PMS 360 C",
+    "hexCode": "6CC24A"
+  },
+  {
+    "pmsCode": "PMS 361 C",
+    "hexCode": "43B02A"
+  },
+  {
+    "pmsCode": "PMS 362 C",
+    "hexCode": "509E2F"
+  },
+  {
+    "pmsCode": "PMS 363 C",
+    "hexCode": "4C8C2B"
+  },
+  {
+    "pmsCode": "PMS 364 C",
+    "hexCode": "4A7729"
+  },
+  {
+    "pmsCode": "PMS 365 C",
+    "hexCode": "C2E189"
+  },
+  {
+    "pmsCode": "PMS 366 C",
+    "hexCode": "B7DD79"
+  },
+  {
+    "pmsCode": "PMS 367 C",
+    "hexCode": "A4D65E"
+  },
+  {
+    "pmsCode": "PMS 368 C",
+    "hexCode": "78BE20"
+  },
+  {
+    "pmsCode": "PMS 369 C",
+    "hexCode": "64A70B"
+  },
+  {
+    "pmsCode": "PMS 370 C",
+    "hexCode": "658D1B"
+  },
+  {
+    "pmsCode": "PMS 371 C",
+    "hexCode": "546223"
+  },
+  {
+    "pmsCode": "PMS 372 C",
+    "hexCode": "D4EB8E"
+  },
+  {
+    "pmsCode": "PMS 373 C",
+    "hexCode": "CDEA80"
+  },
+  {
+    "pmsCode": "PMS 374 C",
+    "hexCode": "C5E86C"
+  },
+  {
+    "pmsCode": "PMS 375 C",
+    "hexCode": "97D700"
+  },
+  {
+    "pmsCode": "PMS 376 C",
+    "hexCode": "84BD00"
+  },
+  {
+    "pmsCode": "PMS 377 C",
+    "hexCode": "7A9A01"
+  },
+  {
+    "pmsCode": "PMS 378 C",
+    "hexCode": "59621D"
+  },
+  {
+    "pmsCode": "PMS 379 C",
+    "hexCode": "E2E868"
+  },
+  {
+    "pmsCode": "PMS 380 C",
+    "hexCode": "DBE442"
+  },
+  {
+    "pmsCode": "PMS 381 C",
+    "hexCode": "CEDC00"
+  },
+  {
+    "pmsCode": "PMS 382 C",
+    "hexCode": "C4D600"
+  },
+  {
+    "pmsCode": "PMS 383 C",
+    "hexCode": "A8AD00"
+  },
+  {
+    "pmsCode": "PMS 384 C",
+    "hexCode": "949300"
+  },
+  {
+    "pmsCode": "PMS 385 C",
+    "hexCode": "787121"
+  },
+  {
+    "pmsCode": "PMS 386 C",
+    "hexCode": "A2E4B8v"
+  },
+  {
+    "pmsCode": "PMS 387 C",
+    "hexCode": "E3E935"
+  },
+  {
+    "pmsCode": "PMS 388 C",
+    "hexCode": "E0E721"
+  },
+  {
+    "pmsCode": "PMS 389 C",
+    "hexCode": "D0DF00"
+  },
+  {
+    "pmsCode": "PMS 390 C",
+    "hexCode": "B5BD00"
+  },
+  {
+    "pmsCode": "PMS 391 C",
+    "hexCode": "9A9500"
+  },
+  {
+    "pmsCode": "PMS 392 C",
+    "hexCode": "827A04"
+  },
+  {
+    "pmsCode": "PMS 393 C",
+    "hexCode": "F0EC74"
+  },
+  {
+    "pmsCode": "PMS 3935 C",
+    "hexCode": "F3EA5D"
+  },
+  {
+    "pmsCode": "PMS 394 C",
+    "hexCode": "EDE939"
+  },
+  {
+    "pmsCode": "PMS 3945 C",
+    "hexCode": "F3E500"
+  },
+  {
+    "pmsCode": "PMS 395 C",
+    "hexCode": "ECE81A"
+  },
+  {
+    "pmsCode": "PMS 3955 C",
+    "hexCode": "EFDF00"
+  },
+  {
+    "pmsCode": "PMS 396 C",
+    "hexCode": "E1E000"
+  },
+  {
+    "pmsCode": "PMS 3965 C",
+    "hexCode": "EEDC00"
+  },
+  {
+    "pmsCode": "PMS 397 C",
+    "hexCode": "BFB800"
+  },
+  {
+    "pmsCode": "PMS 3975 C",
+    "hexCode": "BBA600"
+  },
+  {
+    "pmsCode": "PMS 398 C",
+    "hexCode": "ADA400"
+  },
+  {
+    "pmsCode": "PMS 3985 C",
+    "hexCode": "9A8700"
+  },
+  {
+    "pmsCode": "PMS 399 C",
+    "hexCode": "A09200"
+  },
+  {
+    "pmsCode": "PMS 3995 C",
+    "hexCode": "685C20"
+  },
+  {
+    "pmsCode": "PMS 400 C",
+    "hexCode": "C4BFB6"
+  },
+  {
+    "pmsCode": "PMS 401 C",
+    "hexCode": "AFA9A0"
+  },
+  {
+    "pmsCode": "PMS 402 C",
+    "hexCode": "9D968D"
+  },
+  {
+    "pmsCode": "PMS 403 C",
+    "hexCode": "8C857B"
+  },
+  {
+    "pmsCode": "PMS 404 C",
+    "hexCode": "776E64"
+  },
+  {
+    "pmsCode": "PMS 405 C",
+    "hexCode": "696158"
+  },
+  {
+    "pmsCode": "PMS 406 C",
+    "hexCode": "C4BCB7"
+  },
+  {
+    "pmsCode": "PMS 407 C",
+    "hexCode": "B2A8A2"
+  },
+  {
+    "pmsCode": "PMS 408 C",
+    "hexCode": "978C87"
+  },
+  {
+    "pmsCode": "PMS 409 C",
+    "hexCode": "857874"
+  },
+  {
+    "pmsCode": "PMS 410 C",
+    "hexCode": "746661"
+  },
+  {
+    "pmsCode": "PMS 411 C",
+    "hexCode": "5E514D"
+  },
+  {
+    "pmsCode": "PMS 412 C",
+    "hexCode": "382F2D"
+  },
+  {
+    "pmsCode": "PMS 413 C",
+    "hexCode": "BABBB1"
+  },
+  {
+    "pmsCode": "PMS 414 C",
+    "hexCode": "A8A99E"
+  },
+  {
+    "pmsCode": "PMS 415 C",
+    "hexCode": "919388"
+  },
+  {
+    "pmsCode": "PMS 416 C",
+    "hexCode": "7E7F74"
+  },
+  {
+    "pmsCode": "PMS 417 C",
+    "hexCode": "65665C"
+  },
+  {
+    "pmsCode": "PMS 418 C",
+    "hexCode": "51534A"
+  },
+  {
+    "pmsCode": "PMS 419 C",
+    "hexCode": "212322"
+  },
+  {
+    "pmsCode": "PMS 420 C",
+    "hexCode": "C7C9C7"
+  },
+  {
+    "pmsCode": "PMS 421 C",
+    "hexCode": "B2B4B2"
+  },
+  {
+    "pmsCode": "PMS 422 C",
+    "hexCode": "9EA2A2"
+  },
+  {
+    "pmsCode": "PMS 423 C",
+    "hexCode": "898D8D"
+  },
+  {
+    "pmsCode": "PMS 424 C",
+    "hexCode": "707372"
+  },
+  {
+    "pmsCode": "PMS 425 C",
+    "hexCode": "54585A"
+  },
+  {
+    "pmsCode": "PMS 426 C",
+    "hexCode": "25282A"
+  },
+  {
+    "pmsCode": "PMS 427 C",
+    "hexCode": "D0D3D4"
+  },
+  {
+    "pmsCode": "PMS 428 C",
+    "hexCode": "C1C6C8"
+  },
+  {
+    "pmsCode": "PMS 429 C",
+    "hexCode": "A2AAAD"
+  },
+  {
+    "pmsCode": "PMS 430 C",
+    "hexCode": "7C878E"
+  },
+  {
+    "pmsCode": "PMS 431 C",
+    "hexCode": "5B6770"
+  },
+  {
+    "pmsCode": "PMS 432 C",
+    "hexCode": "333F48"
+  },
+  {
+    "pmsCode": "PMS 433 C",
+    "hexCode": "1D252D"
+  },
+  {
+    "pmsCode": "PMS 434 C",
+    "hexCode": "D0C4C5"
+  },
+  {
+    "pmsCode": "PMS 435 C",
+    "hexCode": "C1B2B6"
+  },
+  {
+    "pmsCode": "PMS 436 C",
+    "hexCode": "AB989D"
+  },
+  {
+    "pmsCode": "PMS 437 C",
+    "hexCode": "7B6469"
+  },
+  {
+    "pmsCode": "PMS 438 C",
+    "hexCode": "584446"
+  },
+  {
+    "pmsCode": "PMS 439 C",
+    "hexCode": "453536"
+  },
+  {
+    "pmsCode": "PMS 440 C",
+    "hexCode": "382E2C"
+  },
+  {
+    "pmsCode": "PMS 441 C",
+    "hexCode": "BEC6C4"
+  },
+  {
+    "pmsCode": "PMS 442 C",
+    "hexCode": "A2ACAB"
+  },
+  {
+    "pmsCode": "PMS 443 C",
+    "hexCode": "919D9D"
+  },
+  {
+    "pmsCode": "PMS 444 C",
+    "hexCode": "717C7D"
+  },
+  {
+    "pmsCode": "PMS 445 C",
+    "hexCode": "505759"
+  },
+  {
+    "pmsCode": "PMS 446 C",
+    "hexCode": "3F4444"
+  },
+  {
+    "pmsCode": "PMS 447 C",
+    "hexCode": "373A36"
+  },
+  {
+    "pmsCode": "PMS 448 C",
+    "hexCode": "4A412A"
+  },
+  {
+    "pmsCode": "PMS 4485 C",
+    "hexCode": "614F25"
+  },
+  {
+    "pmsCode": "PMS 449 C",
+    "hexCode": "524727"
+  },
+  {
+    "pmsCode": "PMS 4495 C",
+    "hexCode": "8C7732"
+  },
+  {
+    "pmsCode": "PMS 450 C",
+    "hexCode": "594A25"
+  },
+  {
+    "pmsCode": "PMS 4505 C",
+    "hexCode": "998542"
+  },
+  {
+    "pmsCode": "PMS 451 C",
+    "hexCode": "9B945F"
+  },
+  {
+    "pmsCode": "PMS 4515 C",
+    "hexCode": "B3A369"
+  },
+  {
+    "pmsCode": "PMS 452 C",
+    "hexCode": "B0AA7E"
+  },
+  {
+    "pmsCode": "PMS 4525 C",
+    "hexCode": "C5B783"
+  },
+  {
+    "pmsCode": "PMS 453 C",
+    "hexCode": "BFBB98"
+  },
+  {
+    "pmsCode": "PMS 4535 C",
+    "hexCode": "CFC493"
+  },
+  {
+    "pmsCode": "PMS 454 C",
+    "hexCode": "CAC7A7"
+  },
+  {
+    "pmsCode": "PMS 4545 C",
+    "hexCode": "D5CB9F"
+  },
+  {
+    "pmsCode": "PMS 455 C",
+    "hexCode": "695B24"
+  },
+  {
+    "pmsCode": "PMS 456 C",
+    "hexCode": "A28E2A"
+  },
+  {
+    "pmsCode": "PMS 457 C",
+    "hexCode": "B89D18"
+  },
+  {
+    "pmsCode": "PMS 458 C",
+    "hexCode": "D9C756"
+  },
+  {
+    "pmsCode": "PMS 459 C",
+    "hexCode": "DECD63"
+  },
+  {
+    "pmsCode": "PMS 460 C",
+    "hexCode": "E4D77E"
+  },
+  {
+    "pmsCode": "PMS 461 C",
+    "hexCode": "E9DF97"
+  },
+  {
+    "pmsCode": "PMS 462 C",
+    "hexCode": "5C462B"
+  },
+  {
+    "pmsCode": "PMS 4625 C",
+    "hexCode": "4F2C1D"
+  },
+  {
+    "pmsCode": "PMS 463 C",
+    "hexCode": "744F28"
+  },
+  {
+    "pmsCode": "PMS 4635 C",
+    "hexCode": "946037"
+  },
+  {
+    "pmsCode": "PMS 464 C",
+    "hexCode": "8B5B29"
+  },
+  {
+    "pmsCode": "PMS 4645 C",
+    "hexCode": "AD7C59"
+  },
+  {
+    "pmsCode": "PMS 465 C",
+    "hexCode": "B9975B"
+  },
+  {
+    "pmsCode": "PMS 4655 C",
+    "hexCode": "BF9474"
+  },
+  {
+    "pmsCode": "PMS 466 C",
+    "hexCode": "C6AA76"
+  },
+  {
+    "pmsCode": "PMS 4665 C",
+    "hexCode": "CDA788"
+  },
+  {
+    "pmsCode": "PMS 467 C",
+    "hexCode": "D3BC8D"
+  },
+  {
+    "pmsCode": "PMS 4675 C",
+    "hexCode": "DCBFA6"
+  },
+  {
+    "pmsCode": "PMS 468 C",
+    "hexCode": "DDCBA4"
+  },
+  {
+    "pmsCode": "PMS 4685 C",
+    "hexCode": "E0C6AD"
+  },
+  {
+    "pmsCode": "PMS 469 C",
+    "hexCode": "693F23"
+  },
+  {
+    "pmsCode": "PMS 4695 C",
+    "hexCode": "5B3427"
+  },
+  {
+    "pmsCode": "PMS 470 C",
+    "hexCode": "A45A2A"
+  },
+  {
+    "pmsCode": "PMS 4705 C",
+    "hexCode": "7C4D3A"
+  },
+  {
+    "pmsCode": "PMS 471 C",
+    "hexCode": "B86125"
+  },
+  {
+    "pmsCode": "PMS 4715 C",
+    "hexCode": "956C58"
+  },
+  {
+    "pmsCode": "PMS 500 C",
+    "hexCode": "C6858F"
+  },
+  {
+    "pmsCode": "PMS 5005 C",
+    "hexCode": "B07C83"
+  },
+  {
+    "pmsCode": "PMS 501 C",
+    "hexCode": "DAA5AD"
+  },
+  {
+    "pmsCode": "PMS 5015 C",
+    "hexCode": "CCA1A6"
+  },
+  {
+    "pmsCode": "PMS 502 C",
+    "hexCode": "E5BAC1"
+  },
+  {
+    "pmsCode": "PMS 5025 C",
+    "hexCode": "DBB7BB"
+  },
+  {
+    "pmsCode": "PMS 503 C",
+    "hexCode": "E9C4C7"
+  },
+  {
+    "pmsCode": "PMS 5035 C",
+    "hexCode": "DFC2C3"
+  },
+  {
+    "pmsCode": "PMS 504 C",
+    "hexCode": "572932"
+  },
+  {
+    "pmsCode": "PMS 505 C",
+    "hexCode": "6F2C3F"
+  },
+  {
+    "pmsCode": "PMS 506 C",
+    "hexCode": "84344E"
+  },
+  {
+    "pmsCode": "PMS 507 C",
+    "hexCode": "D592AA"
+  },
+  {
+    "pmsCode": "PMS 508 C",
+    "hexCode": "E4A9BB"
+  },
+  {
+    "pmsCode": "PMS 509 C",
+    "hexCode": "E8B3C3"
+  },
+  {
+    "pmsCode": "PMS 510 C",
+    "hexCode": "EBBECB"
+  },
+  {
+    "pmsCode": "PMS 511 C",
+    "hexCode": "612C51"
+  },
+  {
+    "pmsCode": "PMS 5115 C",
+    "hexCode": "512A44"
+  },
+  {
+    "pmsCode": "PMS 512 C",
+    "hexCode": "833177"
+  },
+  {
+    "pmsCode": "PMS 5125 C",
+    "hexCode": "693C5E"
+  },
+  {
+    "pmsCode": "PMS 513 C",
+    "hexCode": "93328E"
+  },
+  {
+    "pmsCode": "PMS 5135 C",
+    "hexCode": "7E5475"
+  },
+  {
+    "pmsCode": "PMS 514 C",
+    "hexCode": "D48BC8"
+  },
+  {
+    "pmsCode": "PMS 5145 C",
+    "hexCode": "9B7793"
+  },
+  {
+    "pmsCode": "PMS 515 C",
+    "hexCode": "E2ACD7"
+  },
+  {
+    "pmsCode": "PMS 5155 C",
+    "hexCode": "BFA5B8"
+  },
+  {
+    "pmsCode": "PMS 516 C",
+    "hexCode": "E6BEDD"
+  },
+  {
+    "pmsCode": "PMS 5165 C",
+    "hexCode": "D3C0CD"
+  },
+  {
+    "pmsCode": "PMS 517 C",
+    "hexCode": "EBC6DF"
+  },
+  {
+    "pmsCode": "PMS 5175 C",
+    "hexCode": "D8C8D1"
+  },
+  {
+    "pmsCode": "PMS 518 C",
+    "hexCode": "4B3048"
+  },
+  {
+    "pmsCode": "PMS 5185 C",
+    "hexCode": "4A3041"
+  },
+  {
+    "pmsCode": "PMS 519 C",
+    "hexCode": "59315F"
+  },
+  {
+    "pmsCode": "PMS 5195 C",
+    "hexCode": "66435A"
+  },
+  {
+    "pmsCode": "PMS 520 C",
+    "hexCode": "642F6C"
+  },
+  {
+    "pmsCode": "PMS 5205 C",
+    "hexCode": "86647A"
+  },
+  {
+    "pmsCode": "PMS 521 C",
+    "hexCode": "A57FB2"
+  },
+  {
+    "pmsCode": "PMS 5215 C",
+    "hexCode": "AF95A6"
+  },
+  {
+    "pmsCode": "PMS 522 C",
+    "hexCode": "BA9CC5"
+  },
+  {
+    "pmsCode": "PMS 5225 C",
+    "hexCode": "C6B0BC"
+  },
+  {
+    "pmsCode": "PMS 523 C",
+    "hexCode": "C9B1D0"
+  },
+  {
+    "pmsCode": "PMS 5235 C",
+    "hexCode": "D0BEC7"
+  },
+  {
+    "pmsCode": "PMS 524 C",
+    "hexCode": "D5C2D8"
+  },
+  {
+    "pmsCode": "PMS 5245 C",
+    "hexCode": "DBCDD3"
+  },
+  {
+    "pmsCode": "PMS 525 C",
+    "hexCode": "572C5F"
+  },
+  {
+    "pmsCode": "PMS 5255 C",
+    "hexCode": "1E1A34"
+  },
+  {
+    "pmsCode": "PMS 526 C",
+    "hexCode": "702F8A"
+  },
+  {
+    "pmsCode": "PMS 5265 C",
+    "hexCode": "403A60"
+  },
+  {
+    "pmsCode": "PMS 527 C",
+    "hexCode": "8031A7"
+  },
+  {
+    "pmsCode": "PMS 5275 C",
+    "hexCode": "595478"
+  },
+  {
+    "pmsCode": "PMS 528 C",
+    "hexCode": "B580D1"
+  },
+  {
+    "pmsCode": "PMS 5285 C",
+    "hexCode": "8D89A5"
+  },
+  {
+    "pmsCode": "PMS 529 C",
+    "hexCode": "CAA2DD"
+  },
+  {
+    "pmsCode": "PMS 5295 C",
+    "hexCode": "B3B0C4"
+  },
+  {
+    "pmsCode": "PMS 530 C",
+    "hexCode": "D7B9E4"
+  },
+  {
+    "pmsCode": "PMS 5305 C",
+    "hexCode": "C6C4D2"
+  },
+  {
+    "pmsCode": "PMS 531 C",
+    "hexCode": "DFC8E7"
+  },
+  {
+    "pmsCode": "PMS 5315 C",
+    "hexCode": "D8D7DF"
+  },
+  {
+    "pmsCode": "PMS 532 C",
+    "hexCode": "1C1F2A"
+  },
+  {
+    "pmsCode": "PMS 533 C",
+    "hexCode": "1F2A44"
+  },
+  {
+    "pmsCode": "PMS 534 C",
+    "hexCode": "1B365D"
+  },
+  {
+    "pmsCode": "PMS 535 C",
+    "hexCode": "8E9FBC"
+  },
+  {
+    "pmsCode": "PMS 536 C",
+    "hexCode": "A2B2C8"
+  },
+  {
+    "pmsCode": "PMS 537 C",
+    "hexCode": "BBC7D6"
+  },
+  {
+    "pmsCode": "PMS 538 C",
+    "hexCode": "C5CFDA"
+  },
+  {
+    "pmsCode": "PMS 539 C",
+    "hexCode": "00263A"
+  },
+  {
+    "pmsCode": "PMS 5395 C",
+    "hexCode": "081F2C"
+  },
+  {
+    "pmsCode": "PMS 540 C",
+    "hexCode": "003057"
+  },
+  {
+    "pmsCode": "PMS 5405 C",
+    "hexCode": "4F758B"
+  },
+  {
+    "pmsCode": "PMS 541 C",
+    "hexCode": "003C71"
+  },
+  {
+    "pmsCode": "PMS 5415 C",
+    "hexCode": "5B7F95"
+  },
+  {
+    "pmsCode": "PMS 542 C",
+    "hexCode": "7BAFD4"
+  },
+  {
+    "pmsCode": "PMS 5425 C",
+    "hexCode": "7A99AC"
+  },
+  {
+    "pmsCode": "PMS 543 C",
+    "hexCode": "A4C8E1"
+  },
+  {
+    "pmsCode": "PMS 5435 C",
+    "hexCode": "A6BBC8"
+  },
+  {
+    "pmsCode": "PMS 544 C",
+    "hexCode": "BDD6E6"
+  },
+  {
+    "pmsCode": "PMS 5445 C",
+    "hexCode": "B7C9D3"
+  },
+  {
+    "pmsCode": "PMS 545 C",
+    "hexCode": "C6DAE7"
+  },
+  {
+    "pmsCode": "PMS 5455 C",
+    "hexCode": "BFCED6"
+  },
+  {
+    "pmsCode": "PMS 546 C",
+    "hexCode": "072B31"
+  },
+  {
+    "pmsCode": "PMS 5463 C",
+    "hexCode": "07272D"
+  },
+  {
+    "pmsCode": "PMS 5467 C",
+    "hexCode": "18332F"
+  },
+  {
+    "pmsCode": "PMS 547 C",
+    "hexCode": "00313C"
+  },
+  {
+    "pmsCode": "PMS 5473 C",
+    "hexCode": "115E67"
+  },
+  {
+    "pmsCode": "PMS 5477 C",
+    "hexCode": "3E5D58"
+  },
+  {
+    "pmsCode": "PMS 548 C",
+    "hexCode": "003D4C"
+  },
+  {
+    "pmsCode": "PMS 5483 C",
+    "hexCode": "4F868E"
+  },
+  {
+    "pmsCode": "PMS 5487 C",
+    "hexCode": "5D7975"
+  },
+  {
+    "pmsCode": "PMS 549 C",
+    "hexCode": "6BA4B8"
+  },
+  {
+    "pmsCode": "PMS 5493 C",
+    "hexCode": "7FA9AE"
+  },
+  {
+    "pmsCode": "PMS 5497 C",
+    "hexCode": "829995"
+  },
+  {
+    "pmsCode": "PMS 550 C",
+    "hexCode": "8DB9CA"
+  },
+  {
+    "pmsCode": "PMS 5503 C",
+    "hexCode": "94B7BB"
+  },
+  {
+    "pmsCode": "PMS 5507 C",
+    "hexCode": "9DB0AC"
+  },
+  {
+    "pmsCode": "PMS 551 C",
+    "hexCode": "A3C7D2"
+  },
+  {
+    "pmsCode": "PMS 5513 C",
+    "hexCode": "ABC7CA"
+  },
+  {
+    "pmsCode": "PMS 5517 C",
+    "hexCode": "B1C0BC"
+  },
+  {
+    "pmsCode": "PMS 552 C",
+    "hexCode": "B9D3DC"
+  },
+  {
+    "pmsCode": "PMS 5523 C",
+    "hexCode": "B6CFD0"
+  },
+  {
+    "pmsCode": "PMS 5527 C",
+    "hexCode": "BCC9C5"
+  },
+  {
+    "pmsCode": "PMS 553 C",
+    "hexCode": "284734"
+  },
+  {
+    "pmsCode": "PMS 5535 C",
+    "hexCode": "183028"
+  },
+  {
+    "pmsCode": "PMS 554 C",
+    "hexCode": "205C40"
+  },
+  {
+    "pmsCode": "PMS 5545 C",
+    "hexCode": "43695B"
+  },
+  {
+    "pmsCode": "PMS 555 C",
+    "hexCode": "28724F"
+  },
+  {
+    "pmsCode": "PMS 5555 C",
+    "hexCode": "5C7F71"
+  },
+  {
+    "pmsCode": "PMS 556 C",
+    "hexCode": "6FA287"
+  },
+  {
+    "pmsCode": "PMS 5565 C",
+    "hexCode": "7F9C90"
+  },
+  {
+    "pmsCode": "PMS 557 C",
+    "hexCode": "85B09A"
+  },
+  {
+    "pmsCode": "PMS 5575 C",
+    "hexCode": "92ACA0"
+  },
+  {
+    "pmsCode": "PMS 558 C",
+    "hexCode": "9ABEAA"
+  },
+  {
+    "pmsCode": "PMS 5585 C",
+    "hexCode": "A7BDB1"
+  },
+  {
+    "pmsCode": "PMS 559 C",
+    "hexCode": "ADCAB8"
+  },
+  {
+    "pmsCode": "PMS 5595 C",
+    "hexCode": "BFCEC2"
+  },
+  {
+    "pmsCode": "PMS 560 C",
+    "hexCode": "1D3C34"
+  },
+  {
+    "pmsCode": "PMS 5605 C",
+    "hexCode": "22372B"
+  },
+  {
+    "pmsCode": "PMS 561 C",
+    "hexCode": "00594C"
+  },
+  {
+    "pmsCode": "PMS 5615 C",
+    "hexCode": "5E7461"
+  },
+  {
+    "pmsCode": "PMS 562 C",
+    "hexCode": "006F62"
+  },
+  {
+    "pmsCode": "PMS 5625 C",
+    "hexCode": "708573"
+  },
+  {
+    "pmsCode": "PMS 563 C",
+    "hexCode": "6BBBAE"
+  },
+  {
+    "pmsCode": "PMS 5635 C",
+    "hexCode": "94A596"
+  },
+  {
+    "pmsCode": "PMS 564 C",
+    "hexCode": "86C8BC"
+  },
+  {
+    "pmsCode": "PMS 5645 C",
+    "hexCode": "A3B2A4"
+  },
+  {
+    "pmsCode": "PMS 565 C",
+    "hexCode": "A1D6CA"
+  },
+  {
+    "pmsCode": "PMS 5655 C",
+    "hexCode": "B0BDB0"
+  },
+  {
+    "pmsCode": "PMS 566 C",
+    "hexCode": "B9DCD2"
+  },
+  {
+    "pmsCode": "PMS 5665 C",
+    "hexCode": "BAC5B9"
+  },
+  {
+    "pmsCode": "PMS 567 C",
+    "hexCode": "173F35"
+  },
+  {
+    "pmsCode": "PMS 568 C",
+    "hexCode": "006C5B"
+  },
+  {
+    "pmsCode": "PMS 569 C",
+    "hexCode": "00816D"
+  },
+  {
+    "pmsCode": "PMS 570 C",
+    "hexCode": "6BCABA"
+  },
+  {
+    "pmsCode": "PMS 571 C",
+    "hexCode": "98DBCE"
+  },
+  {
+    "pmsCode": "PMS 572 C",
+    "hexCode": "A5DFD3"
+  },
+  {
+    "pmsCode": "PMS 573 C",
+    "hexCode": "B5E3D8"
+  },
+  {
+    "pmsCode": "PMS 574 C",
+    "hexCode": "4E5B31"
+  },
+  {
+    "pmsCode": "PMS 5743 C",
+    "hexCode": "3E4827"
+  },
+  {
+    "pmsCode": "PMS 5747 C",
+    "hexCode": "3D441E"
+  },
+  {
+    "pmsCode": "PMS 575 C",
+    "hexCode": "67823A"
+  },
+  {
+    "pmsCode": "PMS 5753 C",
+    "hexCode": "5E6738"
+  },
+  {
+    "pmsCode": "PMS 5757 C",
+    "hexCode": "6D712E"
+  },
+  {
+    "pmsCode": "PMS 576 C",
+    "hexCode": "789D4A"
+  },
+  {
+    "pmsCode": "PMS 5763 C",
+    "hexCode": "737B4C"
+  },
+  {
+    "pmsCode": "PMS 5767 C",
+    "hexCode": "8A8D4A"
+  },
+  {
+    "pmsCode": "PMS 577 C",
+    "hexCode": "A9C47F"
+  },
+  {
+    "pmsCode": "PMS 5773 C",
+    "hexCode": "899064"
+  },
+  {
+    "pmsCode": "PMS 5777 C",
+    "hexCode": "A2A569"
+  },
+  {
+    "pmsCode": "PMS 578 C",
+    "hexCode": "B7CE95"
+  },
+  {
+    "pmsCode": "PMS 5783 C",
+    "hexCode": "A3AA83"
+  },
+  {
+    "pmsCode": "PMS 5787 C",
+    "hexCode": "BABD8B"
+  },
+  {
+    "pmsCode": "PMS 579 C",
+    "hexCode": "BCD19B"
+  },
+  {
+    "pmsCode": "PMS 5793 C",
+    "hexCode": "B3B995"
+  },
+  {
+    "pmsCode": "PMS 5797 C",
+    "hexCode": "C6C89B"
+  },
+  {
+    "pmsCode": "PMS 580 C",
+    "hexCode": "C4D6A4"
+  },
+  {
+    "pmsCode": "PMS 5803 C",
+    "hexCode": "C3C6A8"
+  },
+  {
+    "pmsCode": "PMS 5807 C",
+    "hexCode": "D0D1AB"
+  },
+  {
+    "pmsCode": "PMS 581 C",
+    "hexCode": "625D20"
+  },
+  {
+    "pmsCode": "PMS 5815 C",
+    "hexCode": "555025"
+  },
+  {
+    "pmsCode": "PMS 582 C",
+    "hexCode": "8E8C13"
+  },
+  {
+    "pmsCode": "PMS 5825 C",
+    "hexCode": "89813D"
+  },
+  {
+    "pmsCode": "PMS 583 C",
+    "hexCode": "B7BF10"
+  },
+  {
+    "pmsCode": "PMS 5835 C",
+    "hexCode": "A09958"
+  },
+  {
+    "pmsCode": "PMS 584 C",
+    "hexCode": "D2D755"
+  },
+  {
+    "pmsCode": "PMS 5845 C",
+    "hexCode": "AFA96E"
+  },
+  {
+    "pmsCode": "PMS 585 C",
+    "hexCode": "DBDE70"
+  },
+  {
+    "pmsCode": "PMS 5855 C",
+    "hexCode": "C0BB87"
+  },
+  {
+    "pmsCode": "PMS 586 C",
+    "hexCode": "E0E27C"
+  },
+  {
+    "pmsCode": "PMS 5865 C",
+    "hexCode": "CBC793"
+  },
+  {
+    "pmsCode": "PMS 587 C",
+    "hexCode": "E3E48D"
+  },
+  {
+    "pmsCode": "PMS 5875 C",
+    "hexCode": "D2CE9E"
+  },
+  {
+    "pmsCode": "PMS 600 C",
+    "hexCode": "F1EB9C"
+  },
+  {
+    "pmsCode": "PMS 601 C",
+    "hexCode": "F0E991"
+  },
+  {
+    "pmsCode": "PMS 602 C",
+    "hexCode": "F0E87B"
+  },
+  {
+    "pmsCode": "PMS 603 C",
+    "hexCode": "EDE04B"
+  },
+  {
+    "pmsCode": "PMS 604 C",
+    "hexCode": "EADA24"
+  },
+  {
+    "pmsCode": "PMS 605 C",
+    "hexCode": "E1CD00"
+  },
+  {
+    "pmsCode": "PMS 606 C",
+    "hexCode": "CFB500"
+  },
+  {
+    "pmsCode": "PMS 607 C",
+    "hexCode": "EBE49A"
+  },
+  {
+    "pmsCode": "PMS 608 C",
+    "hexCode": "E9E186"
+  },
+  {
+    "pmsCode": "PMS 609 C",
+    "hexCode": "E6DE77"
+  },
+  {
+    "pmsCode": "PMS 610 C",
+    "hexCode": "E1D555"
+  },
+  {
+    "pmsCode": "PMS 611 C",
+    "hexCode": "D7C826"
+  },
+  {
+    "pmsCode": "PMS 612 C",
+    "hexCode": "C4B000"
+  },
+  {
+    "pmsCode": "PMS 613 C",
+    "hexCode": "B39B00"
+  },
+  {
+    "pmsCode": "PMS 614 C",
+    "hexCode": "DCD59A"
+  },
+  {
+    "pmsCode": "PMS 615 C",
+    "hexCode": "D6CF8D"
+  },
+  {
+    "pmsCode": "PMS 616 C",
+    "hexCode": "D0C883"
+  },
+  {
+    "pmsCode": "PMS 617 C",
+    "hexCode": "C0B561"
+  },
+  {
+    "pmsCode": "PMS 618 C",
+    "hexCode": "AC9F3C"
+  },
+  {
+    "pmsCode": "PMS 619 C",
+    "hexCode": "9F912A"
+  },
+  {
+    "pmsCode": "PMS 620 C",
+    "hexCode": "8A7B19"
+  },
+  {
+    "pmsCode": "PMS 621 C",
+    "hexCode": "D1E0D7"
+  },
+  {
+    "pmsCode": "PMS 622 C",
+    "hexCode": "B7CDC2"
+  },
+  {
+    "pmsCode": "PMS 623 C",
+    "hexCode": "9AB9AD"
+  },
+  {
+    "pmsCode": "PMS 624 C",
+    "hexCode": "789F90"
+  },
+  {
+    "pmsCode": "PMS 625 C",
+    "hexCode": "507F70"
+  },
+  {
+    "pmsCode": "PMS 626 C",
+    "hexCode": "285C4D"
+  },
+  {
+    "pmsCode": "PMS 627 C",
+    "hexCode": "13322B"
+  },
+  {
+    "pmsCode": "PMS 628 C",
+    "hexCode": "B8DDE1"
+  },
+  {
+    "pmsCode": "PMS 629 C",
+    "hexCode": "9BD3DD"
+  },
+  {
+    "pmsCode": "PMS 630 C",
+    "hexCode": "77C5D5"
+  },
+  {
+    "pmsCode": "PMS 631 C",
+    "hexCode": "3EB1C8"
+  },
+  {
+    "pmsCode": "PMS 632 C",
+    "hexCode": "0093B2"
+  },
+  {
+    "pmsCode": "PMS 633 C",
+    "hexCode": "007396"
+  },
+  {
+    "pmsCode": "PMS 634 C",
+    "hexCode": "005F83"
+  },
+  {
+    "pmsCode": "PMS 635 C",
+    "hexCode": "A4DBE8"
+  },
+  {
+    "pmsCode": "PMS 636 C",
+    "hexCode": "8BD3E6"
+  },
+  {
+    "pmsCode": "PMS 637 C",
+    "hexCode": "4EC3E0"
+  },
+  {
+    "pmsCode": "PMS 638 C",
+    "hexCode": "00AFD7"
+  },
+  {
+    "pmsCode": "PMS 639 C",
+    "hexCode": "0095C8"
+  },
+  {
+    "pmsCode": "PMS 640 C",
+    "hexCode": "0082BA"
+  },
+  {
+    "pmsCode": "PMS 641 C",
+    "hexCode": "0067A0"
+  },
+  {
+    "pmsCode": "PMS 642 C",
+    "hexCode": "D1DDE6"
+  },
+  {
+    "pmsCode": "PMS 643 C",
+    "hexCode": "C6D6E3"
+  },
+  {
+    "pmsCode": "PMS 644 C",
+    "hexCode": "9BB8D3"
+  },
+  {
+    "pmsCode": "PMS 645 C",
+    "hexCode": "7DA1C4"
+  },
+  {
+    "pmsCode": "PMS 646 C",
+    "hexCode": "5E8AB4"
+  },
+  {
+    "pmsCode": "PMS 647 C",
+    "hexCode": "236192"
+  },
+  {
+    "pmsCode": "PMS 648 C",
+    "hexCode": "002E5D"
+  },
+  {
+    "pmsCode": "PMS 649 C",
+    "hexCode": "DBE2E9"
+  },
+  {
+    "pmsCode": "PMS 650 C",
+    "hexCode": "CED9E5"
+  },
+  {
+    "pmsCode": "PMS 651 C",
+    "hexCode": "A7BCD6"
+  },
+  {
+    "pmsCode": "PMS 652 C",
+    "hexCode": "7D9BC1"
+  },
+  {
+    "pmsCode": "PMS 653 C",
+    "hexCode": "326295"
+  },
+  {
+    "pmsCode": "PMS 654 C",
+    "hexCode": "003A70"
+  },
+  {
+    "pmsCode": "PMS 655 C",
+    "hexCode": "002554"
+  },
+  {
+    "pmsCode": "PMS 656 C",
+    "hexCode": "DDE5ED"
+  },
+  {
+    "pmsCode": "PMS 657 C",
+    "hexCode": "C8D8EB"
+  },
+  {
+    "pmsCode": "PMS 658 C",
+    "hexCode": "B1C9E8"
+  },
+  {
+    "pmsCode": "PMS 659 C",
+    "hexCode": "7BA4DB"
+  },
+  {
+    "pmsCode": "PMS 660 C",
+    "hexCode": "407EC9"
+  },
+  {
+    "pmsCode": "PMS 661 C",
+    "hexCode": "003594"
+  },
+  {
+    "pmsCode": "PMS 662 C",
+    "hexCode": "001A70"
+  },
+  {
+    "pmsCode": "PMS 663 C",
+    "hexCode": "E5E1E6"
+  },
+  {
+    "pmsCode": "PMS 664 C",
+    "hexCode": "E0DBE3"
+  },
+  {
+    "pmsCode": "PMS 665 C",
+    "hexCode": "C6BCD0"
+  },
+  {
+    "pmsCode": "PMS 666 C",
+    "hexCode": "A192B2"
+  },
+  {
+    "pmsCode": "PMS 667 C",
+    "hexCode": "7C6992"
+  },
+  {
+    "pmsCode": "PMS 668 C",
+    "hexCode": "614B79"
+  },
+  {
+    "pmsCode": "PMS 669 C",
+    "hexCode": "3F2A56"
+  },
+  {
+    "pmsCode": "PMS 670 C",
+    "hexCode": "EAD3E2"
+  },
+  {
+    "pmsCode": "PMS 671 C",
+    "hexCode": "E6BCD8"
+  },
+  {
+    "pmsCode": "PMS 672 C",
+    "hexCode": "DFA0C9"
+  },
+  {
+    "pmsCode": "PMS 637 C",
+    "hexCode": "D986BA"
+  },
+  {
+    "pmsCode": "PMS 674 C",
+    "hexCode": "C6579A"
+  },
+  {
+    "pmsCode": "PMS 675 C",
+    "hexCode": "AE2573"
+  },
+  {
+    "pmsCode": "PMS 676 C",
+    "hexCode": "960051"
+  },
+  {
+    "pmsCode": "PMS 677 C",
+    "hexCode": "E5CEDB"
+  },
+  {
+    "pmsCode": "PMS 678 C",
+    "hexCode": "E3C8D8"
+  },
+  {
+    "pmsCode": "PMS 679 C",
+    "hexCode": "DEBED2"
+  },
+  {
+    "pmsCode": "PMS 680 C",
+    "hexCode": "C996B6"
+  },
+  {
+    "pmsCode": "PMS 681 C",
+    "hexCode": "B06C96"
+  },
+  {
+    "pmsCode": "PMS 682 C",
+    "hexCode": "994878"
+  },
+  {
+    "pmsCode": "PMS 683 C",
+    "hexCode": "7C2855"
+  },
+  {
+    "pmsCode": "PMS 684 C",
+    "hexCode": "E4C6D4"
+  },
+  {
+    "pmsCode": "PMS 685 C",
+    "hexCode": "DCB6C9"
+  },
+  {
+    "pmsCode": "PMS 686 C",
+    "hexCode": "D0A1BA"
+  },
+  {
+    "pmsCode": "PMS 687 C",
+    "hexCode": "BE84A3"
+  },
+  {
+    "pmsCode": "PMS 688 C",
+    "hexCode": "A76389"
+  },
+  {
+    "pmsCode": "PMS 689 C",
+    "hexCode": "893B67"
+  },
+  {
+    "pmsCode": "PMS 690 C",
+    "hexCode": "612141"
+  },
+  {
+    "pmsCode": "PMS 691 C",
+    "hexCode": "E9CDD0"
+  },
+  {
+    "pmsCode": "PMS 692 C",
+    "hexCode": "E4BEC3"
+  },
+  {
+    "pmsCode": "PMS 693 C",
+    "hexCode": "D7A3AB"
+  },
+  {
+    "pmsCode": "PMS 694 C",
+    "hexCode": "C48490"
+  },
+  {
+    "pmsCode": "PMS 695 C",
+    "hexCode": "B46B7A"
+  },
+  {
+    "pmsCode": "PMS 696 C",
+    "hexCode": "984856"
+  },
+  {
+    "pmsCode": "PMS 697 C",
+    "hexCode": "893C47"
+  },
+  {
+    "pmsCode": "PMS 698 C",
+    "hexCode": "F2D4D7"
+  },
+  {
+    "pmsCode": "PMS 699 C",
+    "hexCode": "F4C3CC"
+  },
+  {
+    "pmsCode": "PMS 700 C",
+    "hexCode": "F2ACB9"
+  },
+  {
+    "pmsCode": "PMS 701 C",
+    "hexCode": "E68699"
+  },
+  {
+    "pmsCode": "PMS 702 C",
+    "hexCode": "D25B73"
+  },
+  {
+    "pmsCode": "PMS 703 C",
+    "hexCode": "B83A4B"
+  },
+  {
+    "pmsCode": "PMS 704 C",
+    "hexCode": "9E2A2F"
+  },
+  {
+    "pmsCode": "PMS 705 C",
+    "hexCode": "F5DADF"
+  },
+  {
+    "pmsCode": "PMS 706 C",
+    "hexCode": "F7CED7"
+  },
+  {
+    "pmsCode": "PMS 707 C",
+    "hexCode": "F9B5C4"
+  },
+  {
+    "pmsCode": "PMS 708 C",
+    "hexCode": "F890A5"
+  },
+  {
+    "pmsCode": "PMS 709 C",
+    "hexCode": "EF6079"
+  },
+  {
+    "pmsCode": "PMS 710 C",
+    "hexCode": "E03E52"
+  },
+  {
+    "pmsCode": "PMS 711 C",
+    "hexCode": "CB2C30"
+  },
+  {
+    "pmsCode": "PMS 712 C",
+    "hexCode": "FCC89B"
+  },
+  {
+    "pmsCode": "PMS 713 C",
+    "hexCode": "FDBE87"
+  },
+  {
+    "pmsCode": "PMS 714 C",
+    "hexCode": "FDAA63"
+  },
+  {
+    "pmsCode": "PMS 715 C",
+    "hexCode": "F68D2E"
+  },
+  {
+    "pmsCode": "PMS 716 C",
+    "hexCode": "EA7600"
+  },
+  {
+    "pmsCode": "PMS 717 C",
+    "hexCode": "D45D00"
+  },
+  {
+    "pmsCode": "PMS 718 C",
+    "hexCode": "BE4D00"
+  },
+  {
+    "pmsCode": "PMS 719 C",
+    "hexCode": "EDC8A3"
+  },
+  {
+    "pmsCode": "PMS 720 C",
+    "hexCode": "E7B78A"
+  },
+  {
+    "pmsCode": "PMS 721 C",
+    "hexCode": "DDA46F"
+  },
+  {
+    "pmsCode": "PMS 722 C",
+    "hexCode": "C88242"
+  },
+  {
+    "pmsCode": "PMS 723 C",
+    "hexCode": "B36924"
+  },
+  {
+    "pmsCode": "PMS 724 C",
+    "hexCode": "934D11"
+  },
+  {
+    "pmsCode": "PMS 725 C",
+    "hexCode": "7D3F16"
+  },
+  {
+    "pmsCode": "PMS 726 C",
+    "hexCode": "E0C09F"
+  },
+  {
+    "pmsCode": "PMS 727 C",
+    "hexCode": "D9B48F"
+  },
+  {
+    "pmsCode": "PMS 728 C",
+    "hexCode": "CDA077"
+  },
+  {
+    "pmsCode": "PMS 729 C",
+    "hexCode": "B58150"
+  },
+  {
+    "pmsCode": "PMS 730 C",
+    "hexCode": "9E652E"
+  },
+  {
+    "pmsCode": "PMS 731 C",
+    "hexCode": "774212"
+  },
+  {
+    "pmsCode": "PMS 732 C",
+    "hexCode": "623412"
+  },
+  {
+    "pmsCode": "PMS 7401 C",
+    "hexCode": "F5E1A4"
+  },
+  {
+    "pmsCode": "PMS 7402 C",
+    "hexCode": "ECD898"
+  },
+  {
+    "pmsCode": "PMS 7403 C",
+    "hexCode": "EED484"
+  },
+  {
+    "pmsCode": "PMS 7404 C",
+    "hexCode": "F4DA40"
+  },
+  {
+    "pmsCode": "PMS 7405 C",
+    "hexCode": "F2CD00"
+  },
+  {
+    "pmsCode": "PMS 7406 C",
+    "hexCode": "F1C400"
+  },
+  {
+    "pmsCode": "PMS 7407 C",
+    "hexCode": "CBA052"
+  },
+  {
+    "pmsCode": "PMS 7408 C",
+    "hexCode": "F6BE00"
+  },
+  {
+    "pmsCode": "PMS 7409 C",
+    "hexCode": "F0B323"
+  },
+  {
+    "pmsCode": "PMS 7410 C",
+    "hexCode": "FEAD77"
+  },
+  {
+    "pmsCode": "PMS 7411 C",
+    "hexCode": "E6A65D"
+  },
+  {
+    "pmsCode": "PMS 7412 C",
+    "hexCode": "D38235"
+  },
+  {
+    "pmsCode": "PMS 7413 C",
+    "hexCode": "DC8633"
+  },
+  {
+    "pmsCode": "PMS 7414 C",
+    "hexCode": "C16C18"
+  },
+  {
+    "pmsCode": "PMS 7415 C",
+    "hexCode": "E6BAA8"
+  },
+  {
+    "pmsCode": "PMS 7416 C",
+    "hexCode": "E56A54"
+  },
+  {
+    "pmsCode": "PMS 7417 C",
+    "hexCode": "E04E39"
+  },
+  {
+    "pmsCode": "PMS 7418 C",
+    "hexCode": "CD545B"
+  },
+  {
+    "pmsCode": "PMS 7419 C",
+    "hexCode": "B04A5A"
+  },
+  {
+    "pmsCode": "PMS 7420 C",
+    "hexCode": "9B2242"
+  },
+  {
+    "pmsCode": "PMS 7421 C",
+    "hexCode": "651D32"
+  },
+  {
+    "pmsCode": "PMS 7422 C",
+    "hexCode": "F4CDD4"
+  },
+  {
+    "pmsCode": "PMS 7423 C",
+    "hexCode": "E06287"
+  },
+  {
+    "pmsCode": "PMS 7424 C",
+    "hexCode": "E24585"
+  },
+  {
+    "pmsCode": "PMS 7425 C",
+    "hexCode": "B52555"
+  },
+  {
+    "pmsCode": "PMS 7426 C",
+    "hexCode": "A4123F"
+  },
+  {
+    "pmsCode": "PMS 7427 C",
+    "hexCode": "971B2F"
+  },
+  {
+    "pmsCode": "PMS 7428 C",
+    "hexCode": "6A2C3E"
+  },
+  {
+    "pmsCode": "PMS 7429 C",
+    "hexCode": "E2BCCB"
+  },
+  {
+    "pmsCode": "PMS 7430 C",
+    "hexCode": "DCA9BF"
+  },
+  {
+    "pmsCode": "PMS 7431 C",
+    "hexCode": "C9809E"
+  },
+  {
+    "pmsCode": "PMS 7432 C",
+    "hexCode": "B55C80"
+  },
+  {
+    "pmsCode": "PMS 7433 C",
+    "hexCode": "A73A64"
+  },
+  {
+    "pmsCode": "PMS 7434 C",
+    "hexCode": "9B3259"
+  },
+  {
+    "pmsCode": "PMS 7435 C",
+    "hexCode": "872651"
+  },
+  {
+    "pmsCode": "PMS 7436 C",
+    "hexCode": "EEDAEA"
+  },
+  {
+    "pmsCode": "PMS 7437 C",
+    "hexCode": "CCAED0"
+  },
+  {
+    "pmsCode": "PMS 7438 C",
+    "hexCode": "D59ED7"
+  },
+  {
+    "pmsCode": "PMS 7439 C",
+    "hexCode": "B288B9"
+  },
+  {
+    "pmsCode": "PMS 7440 C",
+    "hexCode": "A277A6"
+  },
+  {
+    "pmsCode": "PMS 7441 C",
+    "hexCode": "9F5CC0"
+  },
+  {
+    "pmsCode": "PMS 7442 C",
+    "hexCode": "963CBD"
+  },
+  {
+    "pmsCode": "PMS 7443 C",
+    "hexCode": "DDDAE8"
+  },
+  {
+    "pmsCode": "PMS 7444 C",
+    "hexCode": "B6B8DC"
+  },
+  {
+    "pmsCode": "PMS 7445 C",
+    "hexCode": "A7A2C3"
+  },
+  {
+    "pmsCode": "PMS 7446 C",
+    "hexCode": "8986CA"
+  },
+  {
+    "pmsCode": "PMS 7447 C",
+    "hexCode": "5D4777"
+  },
+  {
+    "pmsCode": "PMS 7448 C",
+    "hexCode": "4B384C"
+  },
+  {
+    "pmsCode": "PMS 7449 C",
+    "hexCode": "41273B"
+  },
+  {
+    "pmsCode": "PMS 7450 C",
+    "hexCode": "BDC5DB"
+  },
+  {
+    "pmsCode": "PMS 7451 C",
+    "hexCode": "89ABE3"
+  },
+  {
+    "pmsCode": "PMS 7452 C",
+    "hexCode": "8094DD"
+  },
+  {
+    "pmsCode": "PMS 7453 C",
+    "hexCode": "7BA6DE"
+  },
+  {
+    "pmsCode": "PMS 7454 C",
+    "hexCode": "5F8FB4"
+  },
+  {
+    "pmsCode": "PMS 7455 C",
+    "hexCode": "3A5DAE"
+  },
+  {
+    "pmsCode": "PMS 7456 C",
+    "hexCode": "606EB2"
+  },
+  {
+    "pmsCode": "PMS 7457 C",
+    "hexCode": "BBDDE6"
+  },
+  {
+    "pmsCode": "PMS 7458 C",
+    "hexCode": "71B2C9"
+  },
+  {
+    "pmsCode": "PMS 7459 C",
+    "hexCode": "4298B5"
+  },
+  {
+    "pmsCode": "PMS 7460 C",
+    "hexCode": "0086BF"
+  },
+  {
+    "pmsCode": "PMS 7461 C",
+    "hexCode": "007DBA"
+  },
+  {
+    "pmsCode": "PMS 7462 C",
+    "hexCode": "00558C"
+  },
+  {
+    "pmsCode": "PMS 7463 C",
+    "hexCode": "002B49"
+  },
+  {
+    "pmsCode": "PMS 7464 C",
+    "hexCode": "A0D1CA"
+  },
+  {
+    "pmsCode": "PMS 7465 C",
+    "hexCode": "40C1AC"
+  },
+  {
+    "pmsCode": "PMS 7466 C",
+    "hexCode": "00B0B9"
+  },
+  {
+    "pmsCode": "PMS 7467 C",
+    "hexCode": "00A3AD"
+  },
+  {
+    "pmsCode": "PMS 7468 C",
+    "hexCode": "007398"
+  },
+  {
+    "pmsCode": "PMS 7469 C",
+    "hexCode": "005F86"
+  },
+  {
+    "pmsCode": "PMS 7470 C",
+    "hexCode": "005A70"
+  },
+  {
+    "pmsCode": "PMS 7471 C",
+    "hexCode": "7EDDD3"
+  },
+  {
+    "pmsCode": "PMS 7472 C",
+    "hexCode": "5CB8B2"
+  },
+  {
+    "pmsCode": "PMS 7473 C",
+    "hexCode": "279989"
+  },
+  {
+    "pmsCode": "PMS 7474 C",
+    "hexCode": "007681"
+  },
+  {
+    "pmsCode": "PMS 7475 C",
+    "hexCode": "487A7B"
+  },
+  {
+    "pmsCode": "PMS 7476 C",
+    "hexCode": "0D5257"
+  },
+  {
+    "pmsCode": "PMS 7477 C",
+    "hexCode": "244C5A"
+  },
+  {
+    "pmsCode": "PMS 7478 C",
+    "hexCode": "9BE3BF"
+  },
+  {
+    "pmsCode": "PMS 7479 C",
+    "hexCode": "26D07C"
+  },
+  {
+    "pmsCode": "PMS 7480 C",
+    "hexCode": "00BF6F"
+  },
+  {
+    "pmsCode": "PMS 7481 C",
+    "hexCode": "00B74F"
+  },
+  {
+    "pmsCode": "PMS 7482 C",
+    "hexCode": "009F4D"
+  },
+  {
+    "pmsCode": "PMS 7483 C",
+    "hexCode": "275D38"
+  },
+  {
+    "pmsCode": "PMS 7484 C",
+    "hexCode": "00573F"
+  },
+  {
+    "pmsCode": "PMS 7485 C",
+    "hexCode": "D0DEBB"
+  },
+  {
+    "pmsCode": "PMS 7486 C",
+    "hexCode": "BCE194"
+  },
+  {
+    "pmsCode": "PMS 7487 C",
+    "hexCode": "8EDD65"
+  },
+  {
+    "pmsCode": "PMS 7488 C",
+    "hexCode": "78D64B"
+  },
+  {
+    "pmsCode": "PMS 7489 C",
+    "hexCode": "74AA50"
+  },
+  {
+    "pmsCode": "PMS 7490 C",
+    "hexCode": "719949"
+  },
+  {
+    "pmsCode": "PMS 7491 C",
+    "hexCode": "79863C"
+  },
+  {
+    "pmsCode": "PMS 7492 C",
+    "hexCode": "BFCC80"
+  },
+  {
+    "pmsCode": "PMS 7493 C",
+    "hexCode": "BBC592"
+  },
+  {
+    "pmsCode": "PMS 7494 C",
+    "hexCode": "9CAF88"
+  },
+  {
+    "pmsCode": "PMS 7495 C",
+    "hexCode": "8F993E"
+  },
+  {
+    "pmsCode": "PMS 7496 C",
+    "hexCode": "76881D"
+  },
+  {
+    "pmsCode": "PMS 7497 C",
+    "hexCode": "7A7256"
+  },
+  {
+    "pmsCode": "PMS 7498 C",
+    "hexCode": "5B6236"
+  },
+  {
+    "pmsCode": "PMS 7499 C",
+    "hexCode": "F1E6B2"
+  },
+  {
+    "pmsCode": "PMS 7500 C",
+    "hexCode": "DFD1A7"
+  },
+  {
+    "pmsCode": "PMS 7501 C",
+    "hexCode": "D9C89E"
+  },
+  {
+    "pmsCode": "PMS 7502 C",
+    "hexCode": "CEB888"
+  },
+  {
+    "pmsCode": "PMS 7503 C",
+    "hexCode": "A89968"
+  },
+  {
+    "pmsCode": "PMS 7504 C",
+    "hexCode": "94795D"
+  },
+  {
+    "pmsCode": "PMS 7505 C",
+    "hexCode": "816040"
+  },
+  {
+    "pmsCode": "PMS 7506 C",
+    "hexCode": "EFDBB2"
+  },
+  {
+    "pmsCode": "PMS 7507 C",
+    "hexCode": "FCD299"
+  },
+  {
+    "pmsCode": "PMS 7508 C",
+    "hexCode": "E1B87F"
+  },
+  {
+    "pmsCode": "PMS 7509 C",
+    "hexCode": "D6A461"
+  },
+  {
+    "pmsCode": "PMS 7510 C",
+    "hexCode": "C6893F"
+  },
+  {
+    "pmsCode": "PMS 7511 C",
+    "hexCode": "B77729"
+  },
+  {
+    "pmsCode": "PMS 7512 C",
+    "hexCode": "A6631B"
+  },
+  {
+    "pmsCode": "PMS 7513 C",
+    "hexCode": "E1B7A7"
+  },
+  {
+    "pmsCode": "PMS 7514 C",
+    "hexCode": "D5A286"
+  },
+  {
+    "pmsCode": "PMS 7515 C",
+    "hexCode": "C58B68"
+  },
+  {
+    "pmsCode": "PMS 7516 C",
+    "hexCode": "99552B"
+  },
+  {
+    "pmsCode": "PMS 7517 C",
+    "hexCode": "85431E"
+  },
+  {
+    "pmsCode": "PMS 7518 C",
+    "hexCode": "6D4F47"
+  },
+  {
+    "pmsCode": "PMS 7519 C",
+    "hexCode": "5E4B3C"
+  },
+  {
+    "pmsCode": "PMS 7520 C",
+    "hexCode": "EABEB0"
+  },
+  {
+    "pmsCode": "PMS 7521 C",
+    "hexCode": "C09C83"
+  },
+  {
+    "pmsCode": "PMS 7522 C",
+    "hexCode": "B46A55"
+  },
+  {
+    "pmsCode": "PMS 7523 C",
+    "hexCode": "AB5C57"
+  },
+  {
+    "pmsCode": "PMS 7524 C",
+    "hexCode": "A45248"
+  },
+  {
+    "pmsCode": "PMS 7525 C",
+    "hexCode": "9A6A4F"
+  },
+  {
+    "pmsCode": "PMS 7526 C",
+    "hexCode": "8A391B"
+  },
+  {
+    "pmsCode": "PMS 7527 C",
+    "hexCode": "D6D2C4"
+  },
+  {
+    "pmsCode": "PMS 7528 C",
+    "hexCode": "C5B9AC"
+  },
+  {
+    "pmsCode": "PMS 7529 C",
+    "hexCode": "B7A99A"
+  },
+  {
+    "pmsCode": "PMS 7530 C",
+    "hexCode": "A39382"
+  },
+  {
+    "pmsCode": "PMS 7531 C",
+    "hexCode": "7A6855"
+  },
+  {
+    "pmsCode": "PMS 7532 C",
+    "hexCode": "63513D"
+  },
+  {
+    "pmsCode": "PMS 7533 C",
+    "hexCode": "473729"
+  },
+  {
+    "pmsCode": "PMS 7534 C",
+    "hexCode": "D1CCBD"
+  },
+  {
+    "pmsCode": "PMS 7535 C",
+    "hexCode": "B7B09C"
+  },
+  {
+    "pmsCode": "PMS 7536 C",
+    "hexCode": "A69F88"
+  },
+  {
+    "pmsCode": "PMS 7537 C",
+    "hexCode": "A7ACA2"
+  },
+  {
+    "pmsCode": "PMS 7538 C",
+    "hexCode": "949A90"
+  },
+  {
+    "pmsCode": "PMS 7539 C",
+    "hexCode": "8E9089"
+  },
+  {
+    "pmsCode": "PMS 7540 C",
+    "hexCode": "4B4F54"
+  },
+  {
+    "pmsCode": "PMS 7541 C",
+    "hexCode": "D9E1E2"
+  },
+  {
+    "pmsCode": "PMS 7542 C",
+    "hexCode": "A4BCC2"
+  },
+  {
+    "pmsCode": "PMS 7543 C",
+    "hexCode": "98A4AE"
+  },
+  {
+    "pmsCode": "PMS 7544 C",
+    "hexCode": "768692"
+  },
+  {
+    "pmsCode": "PMS 7545 C",
+    "hexCode": "425563"
+  },
+  {
+    "pmsCode": "PMS 7546 C",
+    "hexCode": "253746"
+  },
+  {
+    "pmsCode": "PMS 7547 C",
+    "hexCode": "131E29"
+  },
+  {
+    "pmsCode": "PMS 7548 C",
+    "hexCode": "FFC600"
+  },
+  {
+    "pmsCode": "PMS 7549 C",
+    "hexCode": "FFB500"
+  },
+  {
+    "pmsCode": "PMS 7550 C",
+    "hexCode": "D19000"
+  },
+  {
+    "pmsCode": "PMS 7551 C",
+    "hexCode": "B47E00"
+  },
+  {
+    "pmsCode": "PMS 7552 C",
+    "hexCode": "73531D"
+  },
+  {
+    "pmsCode": "PMS 7553 C",
+    "hexCode": "5A4522"
+  },
+  {
+    "pmsCode": "PMS 7554 C",
+    "hexCode": "4B3D2A"
+  },
+  {
+    "pmsCode": "PMS 7555 C",
+    "hexCode": "D29F13"
+  },
+  {
+    "pmsCode": "PMS 7556 C",
+    "hexCode": "B78B20"
+  },
+  {
+    "pmsCode": "PMS 7557 C",
+    "hexCode": "9F7D23"
+  },
+  {
+    "pmsCode": "PMS 7558 C",
+    "hexCode": "967126"
+  },
+  {
+    "pmsCode": "PMS 7559 C",
+    "hexCode": "8F6A2A"
+  },
+  {
+    "pmsCode": "PMS 7560 C",
+    "hexCode": "7D622E"
+  },
+  {
+    "pmsCode": "PMS 7561 C",
+    "hexCode": "6C5D34"
+  },
+  {
+    "pmsCode": "PMS 7562 C",
+    "hexCode": "BD9B60"
+  },
+  {
+    "pmsCode": "PMS 7563 C",
+    "hexCode": "D69A2D"
+  },
+  {
+    "pmsCode": "PMS 7564 C",
+    "hexCode": "DB8A06"
+  },
+  {
+    "pmsCode": "PMS 7565 C",
+    "hexCode": "CD7925"
+  },
+  {
+    "pmsCode": "PMS 7566 C",
+    "hexCode": "AD6433"
+  },
+  {
+    "pmsCode": "PMS 7567 C",
+    "hexCode": "89532F"
+  },
+  {
+    "pmsCode": "PMS 7568 C",
+    "hexCode": "775135"
+  },
+  {
+    "pmsCode": "PMS 7569 C",
+    "hexCode": "D78825"
+  },
+  {
+    "pmsCode": "PMS 7570 C",
+    "hexCode": "D3832B"
+  },
+  {
+    "pmsCode": "PMS 7571 C",
+    "hexCode": "C67D30"
+  },
+  {
+    "pmsCode": "PMS 7572 C",
+    "hexCode": "B67233"
+  },
+  {
+    "pmsCode": "PMS 7573 C",
+    "hexCode": "A7662B"
+  },
+  {
+    "pmsCode": "PMS 7574 C",
+    "hexCode": "9E6A38"
+  },
+  {
+    "pmsCode": "PMS 7575 C",
+    "hexCode": "835D32"
+  },
+  {
+    "pmsCode": "PMS 7576 C",
+    "hexCode": "DB864E"
+  },
+  {
+    "pmsCode": "PMS 7577 C",
+    "hexCode": "E07E3C"
+  },
+  {
+    "pmsCode": "PMS 7578 C",
+    "hexCode": "DC6B2F"
+  },
+  {
+    "pmsCode": "PMS 7579 C",
+    "hexCode": "DC582A"
+  },
+  {
+    "pmsCode": "PMS 7580 C",
+    "hexCode": "C05131"
+  },
+  {
+    "pmsCode": "PMS 7581 C",
+    "hexCode": "864A33"
+  },
+  {
+    "pmsCode": "PMS 7582 C",
+    "hexCode": "674736"
+  },
+  {
+    "pmsCode": "PMS 7583 C",
+    "hexCode": "C4622D"
+  },
+  {
+    "pmsCode": "PMS 7584 C",
+    "hexCode": "BA5826"
+  },
+  {
+    "pmsCode": "PMS 7585 C",
+    "hexCode": "AF5C37"
+  },
+  {
+    "pmsCode": "PMS 7586 C",
+    "hexCode": "9E5330"
+  },
+  {
+    "pmsCode": "PMS 7587 C",
+    "hexCode": "924C2E"
+  },
+  {
+    "pmsCode": "PMS 7588 C",
+    "hexCode": "7B4D35"
+  },
+  {
+    "pmsCode": "PMS 7589 C",
+    "hexCode": "5C4738"
+  },
+  {
+    "pmsCode": "PMS 7590 C",
+    "hexCode": "D4B59E"
+  },
+  {
+    "pmsCode": "PMS 7591 C",
+    "hexCode": "C07D59"
+  },
+  {
+    "pmsCode": "PMS 7592 C",
+    "hexCode": "B15533"
+  },
+  {
+    "pmsCode": "PMS 7593 C",
+    "hexCode": "9D432C"
+  },
+  {
+    "pmsCode": "PMS 7594 C",
+    "hexCode": "7C3A2D"
+  },
+  {
+    "pmsCode": "PMS 7595 C",
+    "hexCode": "6B3D2E"
+  },
+  {
+    "pmsCode": "PMS 7596 C",
+    "hexCode": "5C3D31"
+  },
+  {
+    "pmsCode": "PMS 7597 C",
+    "hexCode": "D14124"
+  },
+  {
+    "pmsCode": "PMS 7598 C",
+    "hexCode": "BD472A"
+  },
+  {
+    "pmsCode": "PMS 7599 C",
+    "hexCode": "B33D26"
+  },
+  {
+    "pmsCode": "PMS 7600 C",
+    "hexCode": "8D3F2B"
+  },
+  {
+    "pmsCode": "PMS 7601 C",
+    "hexCode": "83412C"
+  },
+  {
+    "pmsCode": "PMS 7602 C",
+    "hexCode": "7B4931"
+  },
+  {
+    "pmsCode": "PMS 7603 C",
+    "hexCode": "674230"
+  },
+  {
+    "pmsCode": "PMS 7604 C",
+    "hexCode": "E4D5D3"
+  },
+  {
+    "pmsCode": "PMS 7605 C",
+    "hexCode": "E1BBB4"
+  },
+  {
+    "pmsCode": "PMS 7606 C",
+    "hexCode": "D6938A"
+  },
+  {
+    "pmsCode": "PMS 7607 C",
+    "hexCode": "C26E60"
+  },
+  {
+    "pmsCode": "PMS 7608 C",
+    "hexCode": "A4493D"
+  },
+  {
+    "pmsCode": "PMS 7609 C",
+    "hexCode": "823B34"
+  },
+  {
+    "pmsCode": "PMS 7610 C",
+    "hexCode": "683431"
+  },
+  {
+    "pmsCode": "PMS 7611 C",
+    "hexCode": "DDBCB0"
+  },
+  {
+    "pmsCode": "PMS 7612 C",
+    "hexCode": "CA9A8E"
+  },
+  {
+    "pmsCode": "PMS 7613 C",
+    "hexCode": "BC8A7E"
+  },
+  {
+    "pmsCode": "PMS 7614 C",
+    "hexCode": "A37F74"
+  },
+  {
+    "pmsCode": "PMS 7615 C",
+    "hexCode": "866761"
+  },
+  {
+    "pmsCode": "PMS 7616 C",
+    "hexCode": "6B4C4C"
+  },
+  {
+    "pmsCode": "PMS 7617 C",
+    "hexCode": "583D3E"
+  },
+  {
+    "pmsCode": "PMS 7618 C",
+    "hexCode": "C66E4E"
+  },
+  {
+    "pmsCode": "PMS 7619 C",
+    "hexCode": "C04C36"
+  },
+  {
+    "pmsCode": "PMS 7620 C",
+    "hexCode": "B7312C"
+  },
+  {
+    "pmsCode": "PMS 7621 C",
+    "hexCode": "AB2328"
+  },
+  {
+    "pmsCode": "PMS 7622 C",
+    "hexCode": "93272C"
+  },
+  {
+    "pmsCode": "PMS 7623 C",
+    "hexCode": "8A2A2B"
+  },
+  {
+    "pmsCode": "PMS 7624 C",
+    "hexCode": "802F2D"
+  },
+  {
+    "pmsCode": "PMS 7625 C",
+    "hexCode": "E1523D"
+  },
+  {
+    "pmsCode": "PMS 7626 C",
+    "hexCode": "C63527"
+  },
+  {
+    "pmsCode": "PMS 7627 C",
+    "hexCode": "A72B2A"
+  },
+  {
+    "pmsCode": "PMS 7628 C",
+    "hexCode": "9E2A2B"
+  },
+  {
+    "pmsCode": "PMS 7629 C",
+    "hexCode": "6D3332"
+  },
+  {
+    "pmsCode": "PMS 7630 C",
+    "hexCode": "633231"
+  },
+  {
+    "pmsCode": "PMS 7631 C",
+    "hexCode": "572D2D"
+  },
+  {
+    "pmsCode": "PMS 7632 C",
+    "hexCode": "D6C9CA"
+  },
+  {
+    "pmsCode": "PMS 7633 C",
+    "hexCode": "C4A4A7"
+  },
+  {
+    "pmsCode": "PMS 7634 C",
+    "hexCode": "C16784"
+  },
+  {
+    "pmsCode": "PMS 7635 C",
+    "hexCode": "C63663"
+  },
+  {
+    "pmsCode": "PMS 7636 C",
+    "hexCode": "BC204B"
+  },
+  {
+    "pmsCode": "PMS 7637 C",
+    "hexCode": "912F46"
+  },
+  {
+    "pmsCode": "PMS 7638 C",
+    "hexCode": "7E2D40"
+  },
+  {
+    "pmsCode": "PMS 7639 C",
+    "hexCode": "936D73"
+  },
+  {
+    "pmsCode": "PMS 7640 C",
+    "hexCode": "934054"
+  },
+  {
+    "pmsCode": "PMS 7641 C",
+    "hexCode": "8E2C48"
+  },
+  {
+    "pmsCode": "PMS 7642 C",
+    "hexCode": "732E4A"
+  },
+  {
+    "pmsCode": "PMS 7643 C",
+    "hexCode": "672E45"
+  },
+  {
+    "pmsCode": "PMS 7644 C",
+    "hexCode": "582D40"
+  },
+  {
+    "pmsCode": "PMS 7645 C",
+    "hexCode": "502B3A"
+  },
+  {
+    "pmsCode": "PMS 7646 C",
+    "hexCode": "A56E87"
+  },
+  {
+    "pmsCode": "PMS 7647 C",
+    "hexCode": "A83D72"
+  },
+  {
+    "pmsCode": "PMS 7648 C",
+    "hexCode": "991E66"
+  },
+  {
+    "pmsCode": "PMS 7649 C",
+    "hexCode": "8A1B61"
+  },
+  {
+    "pmsCode": "PMS 7650 C",
+    "hexCode": "722257"
+  },
+  {
+    "pmsCode": "PMS 7651 C",
+    "hexCode": "6A2A5B"
+  },
+  {
+    "pmsCode": "PMS 7652 C",
+    "hexCode": "5E2751"
+  },
+  {
+    "pmsCode": "PMS 7653 C",
+    "hexCode": "948794"
+  },
+  {
+    "pmsCode": "PMS 7654 C",
+    "hexCode": "A2789C"
+  },
+  {
+    "pmsCode": "PMS 7655 C",
+    "hexCode": "A15A95"
+  },
+  {
+    "pmsCode": "PMS 7656 C",
+    "hexCode": "8E3A80"
+  },
+  {
+    "pmsCode": "PMS 7657 C",
+    "hexCode": "6E2B62"
+  },
+  {
+    "pmsCode": "PMS 7658 C",
+    "hexCode": "6A3460"
+  },
+  {
+    "pmsCode": "PMS 7659 C",
+    "hexCode": "5D3754"
+  },
+  {
+    "pmsCode": "PMS 7660 C",
+    "hexCode": "9991A4"
+  },
+  {
+    "pmsCode": "PMS 7661 C",
+    "hexCode": "8D6E97"
+  },
+  {
+    "pmsCode": "PMS 7662 C",
+    "hexCode": "7A4183"
+  },
+  {
+    "pmsCode": "PMS 7663 C",
+    "hexCode": "6B3077"
+  },
+  {
+    "pmsCode": "PMS 7664 C",
+    "hexCode": "653279"
+  },
+  {
+    "pmsCode": "PMS 7665 C",
+    "hexCode": "5E366E"
+  },
+  {
+    "pmsCode": "PMS 7666 C",
+    "hexCode": "5C4E63"
+  },
+  {
+    "pmsCode": "PMS 7667 C",
+    "hexCode": "6E7CA0"
+  },
+  {
+    "pmsCode": "PMS 7668 C",
+    "hexCode": "686E9F"
+  },
+  {
+    "pmsCode": "PMS 7669 C",
+    "hexCode": "615E9B"
+  },
+  {
+    "pmsCode": "PMS 7670 C",
+    "hexCode": "565294"
+  },
+  {
+    "pmsCode": "PMS 7671 C",
+    "hexCode": "514689"
+  },
+  {
+    "pmsCode": "PMS 7672 C",
+    "hexCode": "4C4184"
+  },
+  {
+    "pmsCode": "PMS 7673 C",
+    "hexCode": "535486"
+  },
+  {
+    "pmsCode": "PMS 7674 C",
+    "hexCode": "878CB4"
+  },
+  {
+    "pmsCode": "PMS 7675 C",
+    "hexCode": "7C7FAB"
+  },
+  {
+    "pmsCode": "PMS 7676 C",
+    "hexCode": "7566A0"
+  },
+  {
+    "pmsCode": "PMS 7677 C",
+    "hexCode": "6F5091"
+  },
+  {
+    "pmsCode": "PMS 7678 C",
+    "hexCode": "68478D"
+  },
+  {
+    "pmsCode": "PMS 7679 C",
+    "hexCode": "563D82"
+  },
+  {
+    "pmsCode": "PMS 7680 C",
+    "hexCode": "523178"
+  },
+  {
+    "pmsCode": "PMS 7681 C",
+    "hexCode": "94A9CB"
+  },
+  {
+    "pmsCode": "PMS 7682 C",
+    "hexCode": "6787B7"
+  },
+  {
+    "pmsCode": "PMS 7683 C",
+    "hexCode": "426DA9"
+  },
+  {
+    "pmsCode": "PMS 7684 C",
+    "hexCode": "385E9D"
+  },
+  {
+    "pmsCode": "PMS 7685 C",
+    "hexCode": "2C5697"
+  },
+  {
+    "pmsCode": "PMS 7686 C",
+    "hexCode": "1D4F91"
+  },
+  {
+    "pmsCode": "PMS 7687 C",
+    "hexCode": "1D428A"
+  },
+  {
+    "pmsCode": "PMS 7688 C",
+    "hexCode": "4698CB"
+  },
+  {
+    "pmsCode": "PMS 7689 C",
+    "hexCode": "298FC2"
+  },
+  {
+    "pmsCode": "PMS 7690 C",
+    "hexCode": "0076A8"
+  },
+  {
+    "pmsCode": "PMS 7691 C",
+    "hexCode": "006298"
+  },
+  {
+    "pmsCode": "PMS 7692 C",
+    "hexCode": "005587"
+  },
+  {
+    "pmsCode": "PMS 7693 C",
+    "hexCode": "004976"
+  },
+  {
+    "pmsCode": "PMS 7694 C",
+    "hexCode": "01426A"
+  },
+  {
+    "pmsCode": "PMS 7695 C",
+    "hexCode": "7BA7BC"
+  },
+  {
+    "pmsCode": "PMS 7696 C",
+    "hexCode": "6399AE"
+  },
+  {
+    "pmsCode": "PMS 7697 C",
+    "hexCode": "4E87A0"
+  },
+  {
+    "pmsCode": "PMS 7698 C",
+    "hexCode": "41748D"
+  },
+  {
+    "pmsCode": "PMS 7699 C",
+    "hexCode": "34657F"
+  },
+  {
+    "pmsCode": "PMS 7700 C",
+    "hexCode": "165C7D"
+  },
+  {
+    "pmsCode": "PMS 7701 C",
+    "hexCode": "005776"
+  },
+  {
+    "pmsCode": "PMS 7702 C",
+    "hexCode": "48A9C5"
+  },
+  {
+    "pmsCode": "PMS 7703 C",
+    "hexCode": "009CBD"
+  },
+  {
+    "pmsCode": "PMS 7704 C",
+    "hexCode": "0085AD"
+  },
+  {
+    "pmsCode": "PMS 7705 C",
+    "hexCode": "007096"
+  },
+  {
+    "pmsCode": "PMS 7706 C",
+    "hexCode": "006A8E"
+  },
+  {
+    "pmsCode": "PMS 7707 C",
+    "hexCode": "00617F"
+  },
+  {
+    "pmsCode": "PMS 7708 C",
+    "hexCode": "005670"
+  },
+  {
+    "pmsCode": "PMS 7709 C",
+    "hexCode": "63B1BC"
+  },
+  {
+    "pmsCode": "PMS 7710 C",
+    "hexCode": "00A7B5"
+  },
+  {
+    "pmsCode": "PMS 7711 C",
+    "hexCode": "0097A9"
+  },
+  {
+    "pmsCode": "PMS 7712 C",
+    "hexCode": "00859B"
+  },
+  {
+    "pmsCode": "PMS 7713 C",
+    "hexCode": "007D8A"
+  },
+  {
+    "pmsCode": "PMS 7714 C",
+    "hexCode": "007680"
+  },
+  {
+    "pmsCode": "PMS 7715 C",
+    "hexCode": "006269"
+  },
+  {
+    "pmsCode": "PMS 7716 C",
+    "hexCode": "00968F"
+  },
+  {
+    "pmsCode": "PMS 7717 C",
+    "hexCode": "00857D"
+  },
+  {
+    "pmsCode": "PMS 7718 C",
+    "hexCode": "007672"
+  },
+  {
+    "pmsCode": "PMS 7719 C",
+    "hexCode": "006D68"
+  },
+  {
+    "pmsCode": "PMS 7720 C",
+    "hexCode": "00635B"
+  },
+  {
+    "pmsCode": "PMS 7721 C",
+    "hexCode": "005E5D"
+  },
+  {
+    "pmsCode": "PMS 7722 C",
+    "hexCode": "005151"
+  },
+  {
+    "pmsCode": "PMS 7723 C",
+    "hexCode": "50A684"
+  },
+  {
+    "pmsCode": "PMS 7724 C",
+    "hexCode": "00966C"
+  },
+  {
+    "pmsCode": "PMS 7725 C",
+    "hexCode": "008755"
+  },
+  {
+    "pmsCode": "PMS 7726 C",
+    "hexCode": "007B4B"
+  },
+  {
+    "pmsCode": "PMS 7727 C",
+    "hexCode": "006F44"
+  },
+  {
+    "pmsCode": "PMS 7728 C",
+    "hexCode": "006845"
+  },
+  {
+    "pmsCode": "PMS 7729 C",
+    "hexCode": "005844"
+  },
+  {
+    "pmsCode": "PMS 7730 C",
+    "hexCode": "4B9560"
+  },
+  {
+    "pmsCode": "PMS 7731 C",
+    "hexCode": "228848"
+  },
+  {
+    "pmsCode": "PMS 7732 C",
+    "hexCode": "007A3E"
+  },
+  {
+    "pmsCode": "PMS 7733 C",
+    "hexCode": "007041"
+  },
+  {
+    "pmsCode": "PMS 7734 C",
+    "hexCode": "286140"
+  },
+  {
+    "pmsCode": "PMS 7735 C",
+    "hexCode": "36573B"
+  },
+  {
+    "pmsCode": "PMS 7736 C",
+    "hexCode": "395542"
+  },
+  {
+    "pmsCode": "PMS 7737 C",
+    "hexCode": "6BA539"
+  },
+  {
+    "pmsCode": "PMS 7738 C",
+    "hexCode": "48A23F"
+  },
+  {
+    "pmsCode": "PMS 7739 C",
+    "hexCode": "319B42"
+  },
+  {
+    "pmsCode": "PMS 7740 C",
+    "hexCode": "3A913F"
+  },
+  {
+    "pmsCode": "PMS 7741 C",
+    "hexCode": "44883E"
+  },
+  {
+    "pmsCode": "PMS 7742 C",
+    "hexCode": "4A773C"
+  },
+  {
+    "pmsCode": "PMS 7743 C",
+    "hexCode": "44693D"
+  },
+  {
+    "pmsCode": "PMS 7744 C",
+    "hexCode": "BABC16"
+  },
+  {
+    "pmsCode": "PMS 7745 C",
+    "hexCode": "ABAD23"
+  },
+  {
+    "pmsCode": "PMS 7746 C",
+    "hexCode": "999B30"
+  },
+  {
+    "pmsCode": "PMS 7747 C",
+    "hexCode": "888D30"
+  },
+  {
+    "pmsCode": "PMS 7748 C",
+    "hexCode": "7C8034"
+  },
+  {
+    "pmsCode": "PMS 7749 C",
+    "hexCode": "727337"
+  },
+  {
+    "pmsCode": "PMS 7750 C",
+    "hexCode": "656635"
+  },
+  {
+    "pmsCode": "PMS 7751 C",
+    "hexCode": "CAB64B"
+  },
+  {
+    "pmsCode": "PMS 7752 C",
+    "hexCode": "CFB023"
+  },
+  {
+    "pmsCode": "PMS 7753 C",
+    "hexCode": "C1A01E"
+  },
+  {
+    "pmsCode": "PMS 7754 C",
+    "hexCode": "A08629"
+  },
+  {
+    "pmsCode": "PMS 7755 C",
+    "hexCode": "897630"
+  },
+  {
+    "pmsCode": "PMS 7756 C",
+    "hexCode": "736635"
+  },
+  {
+    "pmsCode": "PMS 7757 C",
+    "hexCode": "675E33"
+  },
+  {
+    "pmsCode": "PMS 7758 C",
+    "hexCode": "D4C304"
+  },
+  {
+    "pmsCode": "PMS 7759 C",
+    "hexCode": "C4B200"
+  },
+  {
+    "pmsCode": "PMS 7760 C",
+    "hexCode": "91852C"
+  },
+  {
+    "pmsCode": "PMS 7761 C",
+    "hexCode": "747136"
+  },
+  {
+    "pmsCode": "PMS 7762 C",
+    "hexCode": "5D6439"
+  },
+  {
+    "pmsCode": "PMS 7763 C",
+    "hexCode": "585C3B"
+  },
+  {
+    "pmsCode": "PMS 7764 C",
+    "hexCode": "535435"
+  },
+  {
+    "pmsCode": "PMS 7765 C",
+    "hexCode": "BBB323"
+  },
+  {
+    "pmsCode": "PMS 7766 C",
+    "hexCode": "B4A91F"
+  },
+  {
+    "pmsCode": "PMS 7767 C",
+    "hexCode": "AA9D2E"
+  },
+  {
+    "pmsCode": "PMS 7768 C",
+    "hexCode": "8F7E35"
+  },
+  {
+    "pmsCode": "PMS 7769 C",
+    "hexCode": "716135"
+  },
+  {
+    "pmsCode": "PMS 7770 C",
+    "hexCode": "635939"
+  },
+  {
+    "pmsCode": "PMS 7771 C",
+    "hexCode": "4E4934"
+  },
+  {
+    "pmsCode": "PMS 801 C",
+    "hexCode": "009ACE"
+  },
+  {
+    "pmsCode": "PMS 802 C",
+    "hexCode": "44D62C"
+  },
+  {
+    "pmsCode": "PMS 803 C",
+    "hexCode": "FFE900"
+  },
+  {
+    "pmsCode": "PMS 804 C",
+    "hexCode": "FFAA4D"
+  },
+  {
+    "pmsCode": "PMS 805 C",
+    "hexCode": "FF7276"
+  },
+  {
+    "pmsCode": "PMS 806 C",
+    "hexCode": "FF3EB5"
+  },
+  {
+    "pmsCode": "PMS 807 C",
+    "hexCode": "EA27C2"
+  },
+  {
+    "pmsCode": "PMS 871 C",
+    "hexCode": "84754E"
+  },
+  {
+    "pmsCode": "PMS 872 C",
+    "hexCode": "85714D"
+  },
+  {
+    "pmsCode": "PMS 873 C",
+    "hexCode": "866D4B"
+  },
+  {
+    "pmsCode": "PMS 874 C",
+    "hexCode": "8B6F4E"
+  },
+  {
+    "pmsCode": "PMS 875 C",
+    "hexCode": "87674F"
+  },
+  {
+    "pmsCode": "PMS 876 C",
+    "hexCode": "8B634B"
+  },
+  {
+    "pmsCode": "PMS 877 C",
+    "hexCode": "8A8D8F"
+  }
+]
