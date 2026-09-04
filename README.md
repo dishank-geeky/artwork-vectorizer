@@ -10,7 +10,7 @@ layer per ink**, each snapped to a PMS colour.
   </g>
   ...
 </svg>
-```
+``` 
 
 Output is `<path>` elements with plain hex fills only — no gradients, strokes, CSS
 classes or `<text>` — so it survives editors that rebuild SVGs from paths.
