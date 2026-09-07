@@ -9,6 +9,8 @@ use Symfony\Component\Process\Process;
 
 final class ImageMagick
 {
+    private ?string $resolved = null;
+
     public function __construct(
         private readonly string $magickBinary = 'magick',
         private readonly int $timeout = 120,
@@ -100,22 +102,55 @@ final class ImageMagick
         return trim($this->run([$file, '-format', sprintf('%%[pixel:p{%d,%d}]', $x, $y), 'info:-']));
     }
 
+    /**
+     * RMSE between two images as a percentage, or null if it cannot be taken.
+     *
+     * ImageMagick 7 exposes this as "magick compare"; 6.x ships a separate
+     * "compare" binary. Deriving it from the resolved binary means a custom
+     * install path is honoured here too, instead of assuming one on PATH.
+     */
+    public function compareRmse(string $reference, string $rendered): ?float
+    {
+        $binary = $this->resolveBinary();
+        $args = ['-metric', 'RMSE', $reference, $rendered, 'null:'];
+
+        $command = 'magick' === basename($binary)
+            ? [$binary, 'compare', ...$args]
+            : [$this->siblingBinary($binary, 'compare'), ...$args];
+
+        $process = new Process($command);
+        $process->setTimeout($this->timeout);
+        $process->run();
+
+        // The score goes to stderr, as "1234.5 (0.0188)".
+        if (1 === preg_match('/\(([\d.]+)\)/', $process->getErrorOutput(), $m)) {
+            return round((float) $m[1] * 100, 2);
+        }
+
+        return null;
+    }
+
+    private function siblingBinary(string $binary, string $name): string
+    {
+        $dir = \dirname($binary);
+
+        return \in_array($dir, ['', '.'], true) ? $name : $dir . '/' . $name;
+    }
+
     private function resolveBinary(): string
     {
-        static $resolved = null;
-
-        if (null !== $resolved) {
-            return $resolved;
+        if (null !== $this->resolved) {
+            return $this->resolved;
         }
 
         foreach ([$this->magickBinary, 'magick', 'convert'] as $candidate) {
             $probe = new Process([$candidate, '-version']);
             $probe->run();
             if ($probe->isSuccessful()) {
-                return $resolved = $candidate;
+                return $this->resolved = $candidate;
             }
         }
 
-        return $resolved = $this->magickBinary;
+        return $this->resolved = $this->magickBinary;
     }
 }

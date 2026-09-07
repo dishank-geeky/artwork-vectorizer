@@ -1,188 +1,165 @@
 # Artwork Vectorizer
 
-Converts raster artwork into a colour-separated, print-ready SVG: **one editable
-layer per ink**, each snapped to a PMS colour.
+Turns raster artwork into a colour-separated, print-ready SVG: one editable
+`<g>` per ink, plain hex fills, every colour snapped to its nearest Pantone
+Coated match. Built for screen printing, where the number of separations is
+the thing that costs money.
 
 ```
-<svg width="1200" height="453" viewBox="0 0 1200 453" fill="none">
-  <g id="color-1" data-color="#E4002B" data-area="25.88" data-pms="PMS 185 C" fill="#E4002B">
-    <path d="M304 452 ..."/>
-  </g>
-  ...
-</svg>
-``` 
+input:  a 900x400 PNG logo, 403 unique colours after anti-aliasing
+output: 4 layers -> WHITE, PMS 186 C, PMS 282 C, PMS 1235 C
+        15 subpaths, 3.9 KB, 1.4s, 1.6% off the original
+```
 
-Output is `<path>` elements with plain hex fills only — no gradients, strokes, CSS
-classes or `<text>` — so it survives editors that rebuild SVGs from paths.
+## Requirements
+
+| | |
+|---|---|
+| PHP | 8.2+ |
+| **ImageMagick** | **required** — 7 (`magick`) or 6.x (`convert`), both supported |
+| potrace | optional, recommended — highest edge accuracy |
+| VTracer | optional — fewer path segments, faster on busy artwork |
+
+ImageMagick is the only hard dependency. With no tracer installed the package
+falls back to its own pure-PHP tracer, which produces straight segments with
+no curve fitting — correct, but not what you want for a logo. Install at least
+potrace in production.
+
+```bash
+apt-get install imagemagick potrace     # debian / ubuntu
+apk add imagemagick potrace             # alpine
+brew install imagemagick potrace        # macos
+```
+
+Check what a given server actually has:
+
+```php
+foreach ($vectorizer->engines() as $name => $engine) {
+    printf("%-8s %s\n", $name, $engine['available'] ? 'ready' : 'not installed');
+}
+```
 
 ## Install
 
 ```bash
-composer config repositories.artwork-vectorizer vcs git@github.com:SportsGearSwag/artwork-vectorizer.git
-composer require sportsgearswag/artwork-vectorizer:^1.0
+composer require sportsgearswag/artwork-vectorizer
 ```
 
-## System requirements
+### Symfony
 
-The tracing itself runs in external programs. **These are not installed by
-Composer** — add them to your image:
-
-| binary | needed for | licence |
-|---|---|---|
-| `imagemagick` | required — all raster work | Apache-2.0 |
-| `potrace` | best on flat/logo artwork | **GPLv2** |
-| `vtracer` | best on shaded and photographic artwork | MIT |
-| `librsvg2-bin` | optional — accuracy measurement | LGPL |
-
-```dockerfile
-RUN apt-get update && apt-get install -y --no-install-recommends \
-        imagemagick potrace librsvg2-bin
-
-RUN curl -fsSL "https://github.com/visioncortex/vtracer/releases/download/1.0.0-alpha.2/vtracer-$(uname -m)-unknown-linux-musl.tar.gz" \
-      | tar -xz -C /usr/local/bin vtracer \
-    && chmod +x /usr/local/bin/vtracer \
-    || echo "vtracer unavailable; falling back to potrace"
-```
-
-Neither tracer is mandatory. With both missing, `PhpTracer` takes over — it needs
-nothing but ImageMagick, and emits polygons instead of fitted curves. On flat
-artwork it measures within ~0.5% of potrace; on shaded artwork it is noticeably
-worse. `potrace` is GPLv2, so if that is a problem, vtracer alone (or the PHP
-fallback) works.
-
-## Usage
+Register the bundle (Flex does this for you):
 
 ```php
-use Sgs\Vectorizer\{VectorizerService, PaletteExtractor, ArtworkClassifier, PotraceTracer,
-    VtracerTracer, PhpTracer, SvgAssembler, ImageMagick, PathTransformer, TraceOptions, PmsPalette};
-use Sgs\Vectorizer\Palette\JsonPaletteProvider;
-use Symfony\Component\Filesystem\Filesystem;
+// config/bundles.php
+return [
+    // ...
+    Sgs\Vectorizer\ArtworkVectorizerBundle::class => ['all' => true],
+];
+```
 
-$magick  = new ImageMagick();
-$palette = new PaletteExtractor($magick);
-$paths   = new PathTransformer();
+That is the whole integration — every service is wired for you. Inject
+`VectorizerService` anywhere:
 
-$vectorizer = new VectorizerService(
-    $magick,
-    $palette,
-    new ArtworkClassifier($magick, $palette),
-    new PotraceTracer($magick, $paths),
-    new VtracerTracer(),
-    new PhpTracer($magick),
-    new SvgAssembler(),
-    new PmsPalette(new JsonPaletteProvider()),   // bundled Pantone Coated deck
-    new Filesystem(),
-    sys_get_temp_dir(),
-);
+```php
+use Sgs\Vectorizer\TraceOptions;
+use Sgs\Vectorizer\VectorizerService;
 
-// Let it pick the settings for this artwork
-$detected = $vectorizer->inspect('/path/to/logo.png');
-$options  = TraceOptions::fromPreset($detected['preset']);
+public function __construct(private readonly VectorizerService $vectorizer) {}
 
-$result = $vectorizer->convert('/path/to/logo.png', $options, $detected['engine'], $detected['preset']);
+public function convert(string $uploadedFile): array
+{
+    $detection = $this->vectorizer->inspect($uploadedFile);
+    $options   = TraceOptions::fromPreset($detection['preset']);
 
-file_put_contents('logo.svg', $result['svg']);
-
-foreach ($result['layers'] as $layer) {
-    echo $layer['pms'] ?? $layer['hex'], "  ", $layer['share'], "%\n";
+    return $this->vectorizer->convert($uploadedFile, $options);
 }
 ```
 
-See `examples/convert.php` for a runnable version.
-
-## Symfony
-
-Every class is constructor-injectable and autowires, except two things you must
-configure:
+Configuration is optional — these are the defaults:
 
 ```yaml
-services:
-    Sgs\Vectorizer\ImageMagick:
-        arguments: { $magickBinary: 'magick' }      # 'convert' on ImageMagick 6
-    Sgs\Vectorizer\PotraceTracer:
-        arguments: { $potraceBinary: 'potrace' }
-    Sgs\Vectorizer\VtracerTracer:
-        arguments: { $vtracerBinary: 'vtracer' }
-    Sgs\Vectorizer\VectorizerService:
-        arguments: { $tmpDir: '%kernel.project_dir%/var/tmp' }
-
-    # Where your ink list comes from - see "Palettes" below
-    Sgs\Vectorizer\Palette\PaletteProviderInterface:
-        alias: App\Vectorizer\MyPaletteProvider
+# config/packages/artwork_vectorizer.yaml
+artwork_vectorizer:
+    tmp_dir: '%kernel.project_dir%/var/tmp'   # wiped after every conversion
+    palette: json                             # bundled Pantone Coated deck
+    palette_file: ~                           # or point at your own json
+    binaries:
+        magick: magick                        # absolute paths are fine
+        potrace: potrace
+        vtracer: vtracer
+    timeouts:
+        magick: 120
+        trace: 180                            # raise for very large artwork
 ```
 
-## Palettes
+To feed inks from your own source — a database table, an API — implement
+`PaletteProviderInterface` and name your service:
 
-Colours are snapped to the nearest orderable ink, so the emitted hex is always a
-real one. Supply the list by implementing one method:
-
-```php
-use Sgs\Vectorizer\Palette\PaletteProviderInterface;
-
-final class MyPaletteProvider implements PaletteProviderInterface
-{
-    /** @return list<array{code: string, hex: string}> */
-    public function colours(): array
-    {
-        return [
-            ['code' => 'PMS 185 C', 'hex' => '#E4002B'],
-            // ...
-        ];
-    }
-}
+```yaml
+artwork_vectorizer:
+    palette: App\Vectorizer\DoctrinePmsProvider
 ```
 
-`JsonPaletteProvider` reads a JSON array of `{code, hex}` (also accepts
-`{pmsCode, hexCode}`) and defaults to the 1,247-entry Pantone Coated deck bundled
-in `resources/pms-colors.json`.
+### Without Symfony
 
-**WHITE and BLACK are added automatically.** The Coated deck contains neither —
-its L\* only spans 9.3–91.9 — so without them black snaps to PMS 296 C, a navy, at
-ten times the error of any other ink. If your palette already defines an ink at
-`#FFFFFF` or `#000000`, yours wins.
+Construct it by hand; see [`examples/convert.php`](examples/convert.php).
 
 ## Presets
 
-`TraceOptions::fromPreset()` accepts:
+Pick by artwork type. `inspect()` will choose for you.
 
-| preset | for | engine |
+| Preset | Max inks | For |
 |---|---|---|
-| `logo` | flat spot-colour artwork | potrace |
-| `detailed` | flat artwork with small accents and thin outlines | potrace |
-| `illustration` | shaded mascot / sticker / tee art | vtracer |
-| `photo` | continuous tone — posterised likeness, not print-ready | vtracer |
-| `max_detail` | complex painted artwork; slow, large output | vtracer |
+| `logo` | 6 | Spot-colour logos. Fewest layers, exact brand colours. |
+| `detailed` | 10 | Keeps small accents and thin outlines. |
+| `illustration` | 24 | Mascots, sticker and tee art. |
+| `photo` | 24 | Posterised likeness. Not print-ready. |
+| `max_detail` | 48 | Complex artwork. Slow, and the SVG gets large. |
 
-`inspect()` picks one by measuring how much of the artwork sits on a small ink
-list. Use it rather than guessing — running flat artwork through `photo` softens
-every edge, and running shaded artwork through `logo` bands it.
+## Output
 
-`max_detail` is **not** "highest quality everywhere": on flat logo artwork it
-measures worse than `logo` while producing hundreds of times more paths, because
-the extra colours go on anti-aliasing rather than detail.
-
-## Measuring the result
-
-```php
-$deviation = $vectorizer->measureDeviation($src, $result['svg']);  // % vs original
-$coverage  = $vectorizer->measureCoverage($src, $result['svg']);   // % of artwork drawn
-
-$verdict = ConversionAssessment::assess($deviation, $coverage, $preset, count($result['layers']));
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" fill="none">
+  <g id="color-1" data-color="#C8102E" data-area="12.7" data-pms="PMS 186 C" data-pms-delta="0" fill="#C8102E">
+    <path d="..."/>
+  </g>
+</svg>
 ```
 
-Both are **expensive** — together they often cost more than the conversion — so
-call them only when you need the number. Coverage is the more important one: it
-catches a silently dropped layer, which otherwise produces a plausible-looking SVG.
+Paths with plain hex fills only — no gradients, filters, clip paths or embedded
+raster — so it loads into any design editor. `SvgAssembler::complianceIssues()`
+asserts that.
 
-Rough scale: under 3% is as close as tracing gets, 3–6% is usable but worth a
-look, over 6% means tracing is the wrong tool and the job needs the customer's
-vector original or a redraw.
+## Measuring quality
 
-## Notes
+`convert()` is cheap. The two checks below re-render the SVG and compare it to
+the source, which costs 20-30 seconds, so call them only when you want the
+number:
 
-- **Concurrency**: per-ink traces run 4 at a time. Each slot can be an ImageMagick
-  process, so this is also a memory bound. Override with `VECTORIZER_CONCURRENCY`.
-- **Gradients and soft shadows** cannot be represented as flat separations. They
-  come back as visible bands. Detect and route those to a designer.
-- **Vector input** (`.ai`, `.eps`, `.pdf`, `.svg`) is rasterised then re-traced,
-  which discards exact geometry it already has. Prefer converting those directly.
+```php
+$deviation = $vectorizer->measureDeviation($file, $result['svg'], true);   // % off the original
+$coverage  = $vectorizer->measureCoverage($file, $result['svg']);          // % of ink area drawn
+
+$verdict = ConversionAssessment::assess($deviation, $coverage, $preset, count($result['layers']));
+// ['verdict' => 'good', 'headline' => 'Good — 1.61% off the original across 4 layers', 'detail' => '...']
+```
+
+A flat logo should land under ~3%. Gradients and photographs will not: they
+have no exact answer in flat inks, and `assess()` returns `escalate` rather
+than pretending otherwise.
+
+## Tests
+
+```bash
+composer install
+vendor/bin/phpunit
+```
+
+The suite converts a real four-ink fixture and asserts the ink count, the
+Pantone matches, SVG compliance and a deviation ceiling. It skips if
+ImageMagick is missing, so CI runs `--fail-on-skipped`.
+
+## Licence
+
+Proprietary — see [LICENSE](LICENSE), which also carries the Pantone
+trademark notice and the licences of the external tools this package invokes.

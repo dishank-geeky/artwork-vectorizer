@@ -181,16 +181,7 @@ final class VectorizerService
                 ]);
             }
 
-            $compare = new \Symfony\Component\Process\Process([
-                'compare', '-metric', 'RMSE', $reference, $rendered, 'null:',
-            ]);
-            $compare->run();
-
-            if (preg_match('/\(([\d.]+)\)/', $compare->getErrorOutput(), $m)) {
-                return round((float) $m[1] * 100, 2);
-            }
-
-            return null;
+            return $this->magick->compareRmse($reference, $rendered);
         } catch (\Throwable) {
             return null;
         } finally {
