@@ -39,6 +39,7 @@ $result = $this->vectorizer->convert($file, TraceOptions::fromPreset('logo'));
 | | |
 |---|---|
 | PHP | 8.2+ |
+| Symfony | 6.4, 7.x or 8.x (any, or none — the library works standalone) |
 | **ImageMagick** | **required** — 7 (`magick`) or 6.x (`convert`), both supported |
 | potrace | optional, recommended — highest edge accuracy |
 | VTracer | optional — fewer path segments, faster on busy artwork |
@@ -73,6 +74,7 @@ composer require sportsgearswag/artwork-vectorizer
 
 Use `^1.1` or newer if you pin a constraint. The bundle does not exist in 1.0,
 so a fresh install of 1.0.0 fails at container compile with no obvious cause.
+Symfony 8 needs `^1.1.1`; earlier versions cap Symfony at 7.
 
 ### Symfony
 
