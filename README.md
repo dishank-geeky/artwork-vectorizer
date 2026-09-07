@@ -17,7 +17,7 @@ Two commands and one line, in any Symfony project:
 
 ```bash
 composer require sportsgearswag/artwork-vectorizer
-apt-get install -y imagemagick potrace      # or apk / brew — see Requirements
+apt-get install -y imagemagick potrace      # plus VTracer — see Requirements
 ```
 
 ```php
@@ -36,24 +36,65 @@ $result = $this->vectorizer->convert($file, TraceOptions::fromPreset('logo'));
 
 ## Requirements
 
+All three are **required** for production. The package technically runs on
+ImageMagick alone, but only by falling back to a pure-PHP tracer that emits
+straight segments with no curve fitting — correct, and wrong for a logo.
+
 | | |
 |---|---|
 | PHP | 8.2+ |
 | Symfony | 6.4, 7.x or 8.x (any, or none — the library works standalone) |
-| **ImageMagick** | **required** — 7 (`magick`) or 6.x (`convert`), both supported |
-| potrace | optional, recommended — highest edge accuracy |
-| VTracer | optional — fewer path segments, faster on busy artwork |
+| **ImageMagick** | colour separation. 7 (`magick`) or 6.x (`convert`), both supported |
+| **potrace** | highest edge accuracy — logos, text, hard edges |
+| **VTracer** | fewer path segments, faster — busy and shaded artwork |
 
-ImageMagick is the only hard dependency. With no tracer installed the package
-falls back to its own pure-PHP tracer, which produces straight segments with
-no curve fitting — correct, but not what you want for a logo. Install at least
-potrace in production.
+Install both tracers, not one. They are not interchangeable, and the `auto`
+preset picks between them per artwork; with only one installed every job goes
+through it whether it suits or not. On the same flat four-ink logo:
+
+| engine | subpaths | size | time | difference from original |
+|---|---|---|---|---|
+| potrace | 15 | 3.8 KB | 0.75s | **1.61%** |
+| VTracer | 14 | **2.6 KB** | **0.65s** | 2.69% |
+
+potrace wins on fidelity, VTracer on file size and speed — and the gap widens
+the other way on busy artwork, where potrace emits far more segments.
+
+### ImageMagick and potrace
 
 ```bash
-apt-get install imagemagick potrace     # debian / ubuntu
-apk add imagemagick potrace             # alpine
-brew install imagemagick potrace        # macos
+apt-get update && apt-get install -y imagemagick potrace   # debian / ubuntu
+apk add --no-cache imagemagick potrace                     # alpine
+brew install imagemagick potrace                           # macos
 ```
+
+### VTracer
+
+VTracer is a Rust binary and is **not in apt, apk or brew** — install the
+static release binary and put it on `PATH`:
+
+```bash
+# linux x86_64
+curl -sL https://github.com/visioncortex/vtracer/releases/latest/download/vtracer-x86_64-unknown-linux-musl.tar.gz \
+  | tar xz -C /usr/local/bin vtracer
+
+# linux arm64
+curl -sL https://github.com/visioncortex/vtracer/releases/latest/download/vtracer-aarch64-unknown-linux-musl.tar.gz \
+  | tar xz -C /usr/local/bin vtracer
+
+# macos apple silicon  (use x86_64-apple-darwin on intel)
+curl -sL https://github.com/visioncortex/vtracer/releases/latest/download/vtracer-aarch64-apple-darwin.tar.gz \
+  | tar xz -C /usr/local/bin vtracer
+```
+
+The musl builds are static, so they need no runtime libraries and work on
+Alpine as well as glibc distros. `cargo install vtracer` also works if Rust is
+already available.
+
+Both binaries must be on `PATH` on **every** machine that runs a conversion —
+each developer's machine, CI, and every deployed image. This is the step teams
+miss: it works locally and returns
+`No tracing engine is installed on this server` in production.
 
 Check what a given server actually has:
 
@@ -158,7 +199,8 @@ machines, CI, and each deployed image. This is the step teams forget, and the
 failure mode is a conversion that "works locally" and returns
 `No tracing engine is installed on this server` in production. See
 [Requirements](#requirements); the short version is ImageMagick is mandatory
-and potrace is strongly recommended.
+and both tracers are required — note VTracer is not in apt/apk/brew and needs
+its release binary.
 
 **4. Confirm the licence with the copyright holder.** This package is
 proprietary (see [LICENSE](LICENSE)) — being able to clone a public repository

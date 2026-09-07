@@ -13,6 +13,15 @@ All notable changes to this package are documented here. This project follows
 
 ## [Unreleased]
 
+### Changed
+- Documentation: both potrace and VTracer are now stated as required for
+  production, not optional. They are not interchangeable — the `auto` preset
+  picks between them per artwork, and with one installed every job goes through
+  it whether it suits or not. Includes measured figures for both on the test
+  fixture, and real install instructions for VTracer, which ships no apt/apk/brew
+  package and needs its static release binary.
+- CI installs VTracer as well as potrace, so the matrix exercises both engines.
+
 ### Added
 - `ArtworkVectorizerBundle`, so a Symfony application gets the whole pipeline
   from `composer require` plus one line in `config/bundles.php`. Previously
