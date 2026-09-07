@@ -11,6 +11,29 @@ output: 4 layers -> WHITE, PMS 186 C, PMS 282 C, PMS 1235 C
         15 subpaths, 3.9 KB, 1.4s, 1.6% off the original
 ```
 
+## Quick start
+
+Two commands and one line, in any Symfony project:
+
+```bash
+composer require sportsgearswag/artwork-vectorizer
+apt-get install -y imagemagick potrace      # or apk / brew — see Requirements
+```
+
+```php
+// config/bundles.php
+Sgs\Vectorizer\ArtworkVectorizerBundle::class => ['all' => true],
+```
+
+Then inject it and go — no service wiring, no parameters, no configuration:
+
+```php
+public function __construct(private readonly VectorizerService $vectorizer) {}
+
+$result = $this->vectorizer->convert($file, TraceOptions::fromPreset('logo'));
+// $result['svg'], $result['layers'], ...
+```
+
 ## Requirements
 
 | | |
@@ -41,9 +64,15 @@ foreach ($vectorizer->engines() as $name => $engine) {
 
 ## Install
 
+Published on [Packagist](https://packagist.org/packages/sportsgearswag/artwork-vectorizer),
+so there is no `repositories` block and no token to configure:
+
 ```bash
 composer require sportsgearswag/artwork-vectorizer
 ```
+
+Use `^1.1` or newer if you pin a constraint. The bundle does not exist in 1.0,
+so a fresh install of 1.0.0 fails at container compile with no obvious cause.
 
 ### Symfony
 
@@ -106,32 +135,14 @@ Construct it by hand; see [`examples/convert.php`](examples/convert.php).
 
 ## Handing this to another team
 
-Everything they need is public. There are no credentials, no tokens and no
-private registry to set up — send them this list.
+It is on Packagist and the repository is public, so there is nothing to grant
+and nothing to configure. Send them these three steps.
 
-**1. Add the repository** to their `composer.json`, then require it:
-
-```json
-"repositories": {
-    "artwork-vectorizer": {
-        "type": "vcs",
-        "url": "https://github.com/dishank-geeky/artwork-vectorizer.git",
-        "no-api": true
-    }
-}
-```
+**1. Require it:**
 
 ```bash
-composer require sportsgearswag/artwork-vectorizer:^1.1
+composer require sportsgearswag/artwork-vectorizer
 ```
-
-`no-api: true` makes Composer clone over git instead of using the GitHub API,
-which avoids the 60-requests-per-hour anonymous API limit that CI runners share
-across a pool of IPs. Once the package is on Packagist the whole
-`repositories` block goes away and `composer require` is all they need.
-
-Require `^1.1` or newer, not `^1.0` — the bundle does not exist in 1.0, so a
-fresh install of 1.0.0 fails at container compile with no obvious cause.
 
 **2. Register the bundle** — one line, and then every service is wired:
 
@@ -155,8 +166,9 @@ is needed, but get it in writing.
 ### What they do *not* need
 
 - Any access token, deploy key or `auth.json` — the repository is public
+- A `repositories` block in `composer.json` — it resolves from Packagist
 - A Packagist account
-- Any service configuration — the defaults work; see [Install](#symfony)
+- Any service configuration — the defaults work; see [Symfony](#symfony)
 - To copy any service definitions. If they find themselves writing
   `Sgs\Vectorizer\...` entries in `services.yaml`, they have missed step 2.
 
@@ -166,7 +178,7 @@ is needed, but get it in writing.
 
 | File | Change |
 |---|---|
-| `composer.json` | the `repositories` block above, plus the `require` line |
+| `composer.json` | one `require` line |
 | `config/bundles.php` | one line |
 | `src/Controller/.../ArtworkVectorizerController.php` | inject `VectorizerService`, one upload route, one convert route returning JSON |
 | `templates/.../index.html.twig` | the upload form and the result view |

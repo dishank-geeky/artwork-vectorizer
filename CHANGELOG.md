@@ -3,6 +3,14 @@
 All notable changes to this package are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [1.1.1] - 2026-09-07
+
+### Fixed
+- Allow Symfony 8. The constraints were `^6.4 || ^7.0`, which made the package
+  uninstallable in any newly created Symfony project — `composer require` failed
+  with "the package is fixed to v8.1.6 (lock file version)". Now
+  `^6.4 || ^7.0 || ^8.0`, with the suite verified against 8.1.
+
 ## [Unreleased]
 
 ### Added
