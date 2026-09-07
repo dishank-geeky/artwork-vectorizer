@@ -104,6 +104,103 @@ artwork_vectorizer:
 
 Construct it by hand; see [`examples/convert.php`](examples/convert.php).
 
+## Handing this to another team
+
+Everything they need is public. There are no credentials, no tokens and no
+private registry to set up — send them this list.
+
+**1. Add the repository** to their `composer.json`, then require it:
+
+```json
+"repositories": {
+    "artwork-vectorizer": {
+        "type": "vcs",
+        "url": "https://github.com/dishank-geeky/artwork-vectorizer.git",
+        "no-api": true
+    }
+}
+```
+
+```bash
+composer require sportsgearswag/artwork-vectorizer:^1.1
+```
+
+`no-api: true` makes Composer clone over git instead of using the GitHub API,
+which avoids the 60-requests-per-hour anonymous API limit that CI runners share
+across a pool of IPs. Once the package is on Packagist the whole
+`repositories` block goes away and `composer require` is all they need.
+
+Require `^1.1` or newer, not `^1.0` — the bundle does not exist in 1.0, so a
+fresh install of 1.0.0 fails at container compile with no obvious cause.
+
+**2. Register the bundle** — one line, and then every service is wired:
+
+```php
+// config/bundles.php
+Sgs\Vectorizer\ArtworkVectorizerBundle::class => ['all' => true],
+```
+
+**3. Install the binaries on every machine that runs it** — their local
+machines, CI, and each deployed image. This is the step teams forget, and the
+failure mode is a conversion that "works locally" and returns
+`No tracing engine is installed on this server` in production. See
+[Requirements](#requirements); the short version is ImageMagick is mandatory
+and potrace is strongly recommended.
+
+**4. Confirm the licence with the copyright holder.** This package is
+proprietary (see [LICENSE](LICENSE)) — being able to clone a public repository
+is not the same as being licensed to use it. The owner saying yes is all that
+is needed, but get it in writing.
+
+### What they do *not* need
+
+- Any access token, deploy key or `auth.json` — the repository is public
+- A Packagist account
+- Any service configuration — the defaults work; see [Install](#symfony)
+- To copy any service definitions. If they find themselves writing
+  `Sgs\Vectorizer\...` entries in `services.yaml`, they have missed step 2.
+
+### Worked example
+
+`sgs-designer` is the reference integration. In full it is:
+
+| File | Change |
+|---|---|
+| `composer.json` | the `repositories` block above, plus the `require` line |
+| `config/bundles.php` | one line |
+| `src/Controller/.../ArtworkVectorizerController.php` | inject `VectorizerService`, one upload route, one convert route returning JSON |
+| `templates/.../index.html.twig` | the upload form and the result view |
+
+No service wiring, no parameters, no compiler passes.
+
+### What `convert()` returns
+
+The whole contract for building a UI on top of it:
+
+```php
+[
+    'svg'              => '<svg ...>',   // the finished markup
+    'layers'           => [              // one entry per ink, largest area first
+        ['hex' => '#C8102E', 'share' => 12.7, 'pms' => 'PMS 186 C', 'pmsDelta' => 0.0, 'subpaths' => 2],
+    ],
+    'palette'          => [['hex' => '#C8102E', 'share' => 12.7]],
+    'detectedInks'     => 4,      // found before the max-colour cap was applied
+    'paletteTruncated' => false,  // true when detectedInks exceeded the cap
+    'width'            => 900,
+    'height'           => 400,
+    'bytes'            => 3930,
+    'subpaths'         => 15,
+    'engine'           => 'potrace',  // which one actually ran, after fallback
+    'compliance'       => [],         // non-empty means the SVG broke a format rule
+    'seconds'          => 1.55,
+]
+```
+
+Two of those are easy to miss and worth surfacing in any UI. `engine` is what
+*actually* ran — ask for `vtracer` on a server without it and this comes back
+`potrace`, silently. And `paletteTruncated` tells you the artwork had more inks
+than the preset allowed, which is the honest reason a result looks flat.
+
 ## Presets
 
 Pick by artwork type. `inspect()` will choose for you.
